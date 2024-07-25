@@ -1,0 +1,26 @@
+<svg width="34" height="20" viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="_4" clip-path="url(#clip0_77_89428)">
+<g id="UAE">
+<g id="Clip path group">
+<mask id="mask0_77_89428" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="34" height="20">
+<g id="clip-path">
+<path id="Vector" d="M33.56 0.160034H0V19.74H33.56V0.160034Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_77_89428)">
+<g id="Group">
+<path id="Vector_2" d="M9.79 0.160034H0V19.74H9.79V0.160034Z" fill="#BC0030"/>
+<path id="Vector_3" d="M33.57 0.160034H9.78998V6.69003H33.57V0.160034Z" fill="#3F9B13"/>
+<path id="Vector_4" d="M33.57 6.69003H9.78998V13.22H33.57V6.69003Z" fill="white"/>
+<path id="Vector_5" d="M33.57 13.21H9.78998V19.74H33.57V13.21Z" fill="black"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_77_89428">
+<rect width="33.56" height="19.58" fill="white" transform="translate(0 0.160034)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,27 @@
+<svg width="34" height="20" viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="_4">
+<g clip-path="url(#clip0_77_90037)">
+<g id="BAHRAIN">
+<g id="Clip path group">
+<mask id="mask0_77_90037" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="34" height="20">
+<g id="clip-path">
+<path id="Vector" d="M33.56 0H0V19.57H33.56V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_77_90037)">
+<g id="Group">
+<path id="Vector_2" d="M33.56 0H0V19.57H33.56V0Z" fill="white"/>
+<path id="Vector_3" d="M8.62 0L13.52 1.96L8.62 3.91L13.52 5.87L8.62 7.82L13.52 9.79L8.62 11.75L13.52 13.7L8.62 15.66L13.52 17.62L8.62 19.57H33.56V0H8.62Z" fill="#BC0030"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<rect x="0.5" y="0.5" width="32.56" height="18.57" stroke="#D7D7D7"/>
+</g>
+<defs>
+<clipPath id="clip0_77_90037">
+<rect width="33.56" height="19.57" fill="white"/>
+</clipPath>
+</defs>
+</svg>

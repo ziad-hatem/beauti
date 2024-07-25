@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "baseUrl": "app/",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/*": [
+        "./(root)/*"
+      ],
+      "_/*": [
+        "../public/*"
+      ],
+    }
+  }
+}

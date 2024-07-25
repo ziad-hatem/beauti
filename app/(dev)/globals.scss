@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: 2em;
+  margin: 0;
+
+}
+
+@mixin field {
+  min-height: 2em;
+  height: 2em;
+  border: 0;
+  outline: none;
+  color: bisque;
+  font-size: 1em;
+  font-family: monospace;
+  border-bottom: 1px solid darkslategrey;
+
+  &:active,
+  &:focus {
+    border-bottom: 2px solid blueviolet;
+
+  }
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1ch;
+
+
+  span {
+    padding-top: .5rem;
+    user-select: none;
+  }
+
+  span:first-child {
+    @include field;
+    color: darkcyan;
+    text-align: center;
+
+
+  }
+
+    // display: flex;
+    // align-items: end;
+    // width: 50vw;
+
+    textarea {
+      @include field;
+      resize: none;
+      overflow-y: hidden;
+      width: 100%;
+      background-color: black;
+    }
+  
+
+  span:last-child {
+    @include field;
+    width: 2ch;
+
+  }
+}
+
+.items {
+  div {
+    color: aquamarine;
+    cursor: pointer;
+    user-select: none;
+    text-wrap: nowrap;
+
+    span {
+      text-wrap: wrap;
+      overflow-wrap: anywhere;
+    }
+    &.pass {
+      .text {
+        text-decoration: line-through #9471ff30 1ch;
+        
+        font-style: italic;
+        color: brown;
+      }
+    }
+
+    .done {
+      font-style: italic;
+      color: chartreuse;
+    }
+
+    .arr {
+      color: crimson;
+      display: inline-block;
+      width: 1em;
+    }
+
+    .number {
+      color: darkcyan;
+      display: inline-block;
+      // width: 2em;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+      "topHeadData":[
+            {
+              "title": "سجل معنا كتاجر",
+              "href": "/"
+            },
+            {
+              "title": "اتصل بنا",
+              "href": "/"
+            },
+            {
+              "title": "المساعدة",
+              "href": "/"
+            },
+            {
+              "title": "العربية",
+              "href": "/"
+            }
+          ],
+          "slimBanners" : [
+            {
+              "img": "../../../public/imgs/banners/slim1.png",
+              "href": "/"
+            },
+            {
+              "img": "../../../public/imgs/banners/slim1.png",
+              "href": "/"
+            },
+            {
+              "img": "../../../public/imgs/banners/slim2.png",
+              "href": "/"
+            }
+          ]
+}

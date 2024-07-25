@@ -1,0 +1,27 @@
+<svg width="34" height="21" viewBox="0 0 34 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="_4">
+<g clip-path="url(#clip0_77_89438)">
+<g id="QATAR">
+<g id="Clip path group">
+<mask id="mask0_77_89438" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="34" height="21">
+<g id="clip-path">
+<path id="Vector" d="M33.56 0.579956H0V20.16H33.56V0.579956Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_77_89438)">
+<g id="Group">
+<path id="Vector_2" d="M10 0.579956L13.57 1.66996L10 2.75996L13.57 3.84996L10 4.92996L13.57 6.01996L10 7.10996L13.57 8.18996L10 9.27996L13.57 10.37L10 11.46L13.57 12.54L10 13.63L13.57 14.72L10 15.81L13.57 16.9L10 17.98L13.57 19.07L10 20.16H33.56V0.579956H10Z" fill="#681840"/>
+<path id="Vector_3" d="M0 0.579956V20.16H10L13.57 19.07L10 17.98L13.57 16.9L10 15.81L13.57 14.72L10 13.63L13.57 12.54L10 11.46L13.57 10.37L10 9.27996L13.57 8.18996L10 7.10996L13.57 6.01996L10 4.92996L13.57 3.84996L10 2.75996L13.57 1.66996L10 0.579956H0Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<rect x="0.5" y="1.07996" width="32.56" height="18.58" stroke="#D7D7D7"/>
+</g>
+<defs>
+<clipPath id="clip0_77_89438">
+<rect y="0.579956" width="33.56" height="19.58" fill="white"/>
+</clipPath>
+</defs>
+</svg>

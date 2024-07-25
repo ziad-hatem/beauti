@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.itemRight1 {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.itemRight2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.itemRight3 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+.itemRight4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.itemRight5 {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.itemLeft1 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+.itemLeft2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.itemLeft3 {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.itemLeft4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.itemLeft5 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.RightLinks {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  margin-right: 1.5vw;
+}
+.LeftLinks {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 1.5vw;
+}
+
+@media (max-width: 768px) {
+  .RightLinks,
+  .LeftLinks {
+    gap: 25px;
+  }
+}

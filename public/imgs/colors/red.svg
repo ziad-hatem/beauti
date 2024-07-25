@@ -1,0 +1,102 @@
+<svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="red.svg" clip-path="url(#clip0_294_10885)">
+<g id="Group">
+<path id="Vector" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="black"/>
+<g id="Mask group">
+<mask id="mask0_294_10885" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="25">
+<g id="Group_2">
+<path id="Vector_2" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_294_10885)">
+<path id="Vector_3" d="M0.14563 0H8.47896V8.33333H0.14563V0Z" fill="#F62D2D"/>
+</g>
+</g>
+<g id="Mask group_2">
+<mask id="mask1_294_10885" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="25">
+<g id="Group_3">
+<path id="Vector_4" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_294_10885)">
+<path id="Vector_5" d="M0.14563 8.33337H8.47896V16.6667H0.14563V8.33337Z" fill="#DF0A3F"/>
+</g>
+</g>
+<g id="Mask group_3">
+<mask id="mask2_294_10885" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="25">
+<g id="Group_4">
+<path id="Vector_6" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask2_294_10885)">
+<path id="Vector_7" d="M8.479 0H16.8123V8.33333H8.479V0Z" fill="#D81313"/>
+</g>
+</g>
+<g id="Mask group_4">
+<mask id="mask3_294_10885" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="25">
+<g id="Group_5">
+<path id="Vector_8" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask3_294_10885)">
+<path id="Vector_9" d="M8.479 8.33337H16.8123V16.6667H8.479V8.33337Z" fill="#FB4960"/>
+</g>
+</g>
+<g id="Mask group_5">
+<mask id="mask4_294_10885" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="25">
+<g id="Group_6">
+<path id="Vector_10" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask4_294_10885)">
+<path id="Vector_11" d="M16.8123 0H25.1456V8.33333H16.8123V0Z" fill="#F34545"/>
+</g>
+</g>
+<g id="Mask group_6">
+<mask id="mask5_294_10885" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="25">
+<g id="Group_7">
+<path id="Vector_12" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask5_294_10885)">
+<path id="Vector_13" d="M16.8123 8.33337H25.1456V16.6667H16.8123V8.33337Z" fill="#FF0000"/>
+</g>
+</g>
+<g id="Mask group_7">
+<mask id="mask6_294_10885" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="25">
+<g id="Group_8">
+<path id="Vector_14" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask6_294_10885)">
+<path id="Vector_15" d="M0.14563 16.6666H8.47896V25H0.14563V16.6666Z" fill="#FF5858"/>
+</g>
+</g>
+<g id="Mask group_8">
+<mask id="mask7_294_10885" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="25">
+<g id="Group_9">
+<path id="Vector_16" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask7_294_10885)">
+<path id="Vector_17" d="M8.479 16.6666H16.8123V25H8.479V16.6666Z" fill="#FF244E"/>
+</g>
+</g>
+<g id="Mask group_9">
+<mask id="mask8_294_10885" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="25">
+<g id="Group_10">
+<path id="Vector_18" d="M23.9269 0H1.36438C0.691283 0 0.14563 0.545653 0.14563 1.21875V23.7812C0.14563 24.4543 0.691283 25 1.36438 25H23.9269C24.6 25 25.1456 24.4543 25.1456 23.7812V1.21875C25.1456 0.545653 24.6 0 23.9269 0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask8_294_10885)">
+<path id="Vector_19" d="M16.8123 16.6666H25.1456V25H16.8123V16.6666Z" fill="#C40B0B"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_294_10885">
+<rect width="25" height="25" fill="white" transform="translate(0.14563)"/>
+</clipPath>
+</defs>
+</svg>

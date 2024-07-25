@@ -1,0 +1,21 @@
+<svg width="34" height="21" viewBox="0 0 34 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 400">
+<g id="KUWAIT">
+<g id="Clip path group">
+<mask id="mask0_77_89418" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="34" height="21">
+<g id="clip-path">
+<path id="Vector" d="M33.56 0.570068H0V20.1501H33.56V0.570068Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_77_89418)">
+<g id="Group">
+<path id="Vector_2" d="M33.56 0.570068H0V7.06007H33.56V0.570068Z" fill="#419976"/>
+<path id="Vector_3" d="M33.56 7.06006H0V13.5901H33.56V7.06006Z" fill="white"/>
+<path id="Vector_4" d="M33.56 13.5901H0V20.1201H33.56V13.5901Z" fill="#BC0030"/>
+<path id="Vector_5" d="M0 0.570068V20.1201L9.79 13.5901V7.06007L0.05 0.570068H0Z" fill="black"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
