@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import FitBudgetProduct from "./FitBudgetProduct";
@@ -10,8 +10,30 @@ const Fitbudget = ({
   spacesInDesktop,
   title = " عطور نسائية تناسب الميزانية ",
 }) => {
-  let leastOffer = 100;
-  let highiestOffer = 0;
+  const [offerRange, setOfferRange] = useState({ least: 100, highest: 0 });
+
+  useEffect(() => {
+    let leastOffer = 100;
+    let highestOffer = 0;
+
+    array.forEach((element) => {
+      const offerPercentage = Math.trunc(
+        ((element.price - element.newPrice) / element.price) * 100,
+      );
+      leastOffer = Math.min(leastOffer, offerPercentage);
+      highestOffer = Math.max(highestOffer, offerPercentage);
+    });
+
+    setOfferRange({ least: leastOffer, highest: highestOffer });
+  }, [array]);
+
+  useEffect(() => {
+    const pinkElement = document.querySelector(".pink");
+    if (pinkElement) {
+      pinkElement.innerHTML = ` عروض من ${formatNumberInArabic(offerRange.least)} إلى ${formatNumberInArabic(offerRange.highest)}%`;
+    }
+  }, [offerRange]);
+
   return (
     <>
       <div className="section-title-4 flex md:!mb-4 md:mr-3">
@@ -38,58 +60,15 @@ const Fitbudget = ({
         className="mySwiper-all pinkBigBrand-swiper girlSwiper NextButtonSwiperRight0PX !mt-[6px] !overflow-visible md:!mt-4"
       >
         <div className="pinkBigBrand wrap flex">
-          {array.map((element, i) => {
-            // console.log((element.price - element.newPrice)/element.price * 100)
-            if (
-              ((element.price - element.newPrice) / element.price) * 100 >=
-              highiestOffer
-            ) {
-              // console.log(highiestOffer)
-              highiestOffer = Math.trunc(
-                ((element.price - element.newPrice) / element.price) * 100,
-              );
-              useEffect(() => {
-                document.querySelector(".pink").innerHTML =
-                  ` عروض من ${leastOffer} إلى ${highiestOffer}%`;
-              }, []);
-              // console.log(highiestOffer)
-              if (
-                ((element.price - element.newPrice) / element.price) * 100 <=
-                leastOffer
-              ) {
-                // console.log(leastOffer)
-                leastOffer = Math.trunc(
-                  ((element.price - element.newPrice) / element.price) * 100,
-                );
-                useEffect(() => {
-                  document.querySelector(".pink").innerHTML =
-                    ` عروض من ${leastOffer}إلى  ${highiestOffer}%`;
-                }, []);
-                // console.log(leastOffer)
-              }
-            } else if (
-              ((element.price - element.newPrice) / element.price) * 100 <=
-              leastOffer
-            ) {
-              // console.log(leastOffer)
-              leastOffer = Math.trunc(
-                ((element.price - element.newPrice) / element.price) * 100,
-              );
-              useEffect(() => {
-                document.querySelector(".pink").innerHTML =
-                  ` عروض من ${formatNumberInArabic(leastOffer)} إلى ${formatNumberInArabic(highiestOffer)}%`;
-              }, []);
-              // console.log(leastOffer)
-            }
-            return (
-              <SwiperSlide key={i + "product"} className="relative !w-fit">
-                <FitBudgetProduct elementDash={element} />
-              </SwiperSlide>
-            );
-          })}
+          {array.map((element, i) => (
+            <SwiperSlide key={i + "product"} className="relative !w-fit">
+              <FitBudgetProduct elementDash={element} />
+            </SwiperSlide>
+          ))}
         </div>
       </Swiper>
     </>
   );
 };
+
 export default Fitbudget;
