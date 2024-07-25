@@ -462,9 +462,10 @@ export default function sportPage() {
               {[
                 { img: "/imgs/sportPage/Rectangle 1076.png" },
                 { img: "/imgs/sportPage/Rectangle 1075.png" },
-              ].map((img) => {
+              ].map((img, i) => {
                 return (
                   <Image
+                    key={i}
                     src={img.img}
                     width={100}
                     height={100}
