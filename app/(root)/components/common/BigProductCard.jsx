@@ -13,7 +13,7 @@ const BigProductCard = ({ product, multiSubSection, className }) => {
     >
       {/* image */}
       <div
-        className={`product-image-container relative mx-auto overflow-hidden rounded-xl !p-0 max-xl:!m-0 max-xl:border-none max-lg:!bg-transparent max-md:!h-[38.13vw] max-md:!w-[43.75vw] md:!h-[280px] md:!w-[280px] lg:rounded-13 ${className}`}
+        className={`product-image-container relative mx-auto !aspect-square !min-w-[38%] overflow-hidden !rounded-xl !p-0 max-xl:!m-0 max-xl:border-none max-lg:!bg-transparent max-md:!h-[38.13vw] max-md:!w-[43.75vw] md:!h-[280px] md:!w-[280px] lg:rounded-13 ${className}`}
       >
         <Image
           src={product.img}
@@ -33,7 +33,7 @@ const BigProductCard = ({ product, multiSubSection, className }) => {
           {product.title}
         </h3>
         <h3 className="w-full text-[calc(8px_+_0.6vw)] text-[#363636] md:text-[15px]">
-          <p className="hidden w-[180px] max-w-full overflow-hidden text-ellipsis whitespace-nowrap max-lg:block md:w-[269px]">
+          <p className="hidden w-[30%] max-w-full overflow-hidden text-ellipsis whitespace-nowrap max-lg:block md:w-[269px]">
             {string}
           </p>
           <p className="hidden w-[208px] max-w-full overflow-hidden text-ellipsis whitespace-nowrap md:w-[269px] lg:block">

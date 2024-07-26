@@ -33,7 +33,7 @@ const WomenSidebarSection2 = ({
     <div
       className={`h-full w-auto max-md:mb-[16px] lg:h-full xl:max-h-full xl:w-fit ${className}`}
     >
-      <div className="relative h-full min-w-[213px] overflow-hidden max-md:!mx-3 md:mx-0 xl:max-h-full">
+      <div className="relative h-full min-w-[200px] overflow-hidden max-md:!mx-3 md:mx-0 xl:max-h-full">
         <Image
           src={mobile ? mobileImg : img}
           alt="sideimg"

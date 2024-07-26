@@ -9,7 +9,7 @@ import Link from "next/link";
 const Product = ({ product }) => (
   <Link href={"/"} className="!w-fit max-sm:!w-[calc(100%_-_10px)]">
     <div
-      className="image flex h-auto items-center justify-center rounded-[32px] max-sm:min-h-[310px] max-sm:w-full max-sm:min-w-[310px] md:!h-[227px] md:!w-[227px]"
+      className="image flex aspect-square h-auto items-center justify-center rounded-[32px] max-sm:min-h-fit max-sm:w-full md:!h-[227px] md:!w-[227px]"
       style={{ background: "linear-gradient(180deg, #FFF 0%, #F5F5F5 100%)" }}
     >
       <Image
@@ -17,7 +17,7 @@ const Product = ({ product }) => (
         width={100}
         height={100}
         unoptimized
-        className="h-auto w-[65%] object-contain"
+        className="h-auto w-[65%] object-contain mix-blend-multiply"
         loading="lazy"
       />
     </div>

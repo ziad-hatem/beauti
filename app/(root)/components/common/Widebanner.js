@@ -12,7 +12,7 @@ const Widebanner = ({
   multiSubSection = null,
   centeredSlides = false,
   buttonbg = `bg-[#f39406]`,
-  buttonHovbg = `hover:bg-[#ffab2c]`
+  buttonHovbg = `hover:bg-[#ffab2c]`,
 }) => {
   return (
     <Swiper

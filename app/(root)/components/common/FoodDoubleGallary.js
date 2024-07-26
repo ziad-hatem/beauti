@@ -66,7 +66,7 @@ const FoodDoubleGallary = ({ products }) => {
     >
       {doubleProducts.map((product, i) => (
         <SwiperSlide key={i + "product"} className="!w-fit md:my-1.5">
-          <div className="flex flex-col items-center justify-center !gap-[30px] max-md:!gap-4">
+          <div className="flex flex-col items-center justify-center !gap-[30px] max-md:!gap-5">
             <FoodGallaryCard
               img={product.first.img}
               title={product.first.name}

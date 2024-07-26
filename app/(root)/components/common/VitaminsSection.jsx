@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Product = ({ product }) => (
   <Link href={"/"} className=" md:h-[188px]">
-    <div className="image flex h-[109px] w-[109px] items-start justify-center p-2 md:h-[153px] md:w-[153px]">
+    <div className="image flex h-[109px] w-[109px] items-start justify-center md:h-[153px] md:w-[153px]">
       <Image
         src={product.img}
         width={100}
@@ -16,7 +16,7 @@ const Product = ({ product }) => (
         loading="lazy"
       />
     </div>
-    <h1 className="mx-auto mt-3 w-fit text-center text-[10px] md:text-[14px]">
+    <h1 className="mx-auto mt-[10px] w-fit text-center text-[10px] md:text-[14px]">
       {product.name}
     </h1>
   </Link>

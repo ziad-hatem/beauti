@@ -6,10 +6,12 @@ import two from "../../../../public/icons/a2.png";
 
 const FoodGallaryCard = ({ img, title }) => {
   return (
-    <div className="group flex h-full !w-fit flex-col-reverse gap-3 !bg-transparent ">
+    <div className="group flex h-full !w-fit flex-col-reverse gap-2 !bg-transparent md:gap-3 ">
       {/* first row tag an percent */}
       <div className="name text-center">
-        <h3 className="text-center text-[14px] !font-[500]">{title}</h3>
+        <h3 className="text-center text-[8px] !font-[500] md:text-[14px]">
+          {title}
+        </h3>
       </div>
 
       {/* image */}

@@ -12,7 +12,7 @@ const GlassesMostSelled = ({
   linkClassName = "!bg-white !text-black",
   products = boysEconomy,
   titleColor,
-  cardsClasses
+  cardsClasses,
 }) => {
   const [product, setBigProduct] = useState(products[0]);
   return (
@@ -21,7 +21,7 @@ const GlassesMostSelled = ({
         <div
           className={`section-title mb-3 !hidden h-[38px] w-full items-center !px-[13px] max-lg:!flex lg:px-10 ${classNames}`}
         >
-          <h2 className="font-medium">{text}</h2>
+          <h2 className="font-medium max-md:!text-[12px]">{text}</h2>
           <div className={`displayAll  ${linkClassName}`}>
             <a href="/">عرض الكل</a>
           </div>
@@ -29,11 +29,19 @@ const GlassesMostSelled = ({
         <div className="flex max-lg:mb-[16px] xl:w-[280px]">
           <BigProductCard product={product} className={glassClassName} />
         </div>
-        <div className="glassesMostSelled flex !h-full flex-col justify-around rounded-lg lg:mr-6 lg:w-[calc(100%_-_304px)]">
-          <div className={`header my-[38px] mr-7 hidden text-[15px] font-[400] lg:block xl:text-[22px] text-[${titleColor}]`}>
+        <div className="glassesMostSelled flex !h-full flex-col justify-around rounded-[14px] lg:mr-6 lg:w-[calc(100%_-_304px)]">
+          <div
+            className={`header my-[38px] mr-7 hidden text-[15px] font-[400] lg:block xl:text-[22px] text-[${titleColor}]`}
+          >
             {text}
           </div>
-          <CardsSlider2 glassCard="glassCard" products={products} imgClasses={cardsClasses} click={setBigProduct}/>
+          <CardsSlider2
+            glassCard="glassCard"
+            products={products}
+            swiperClassName="NextButtonSwiperPrev0PX !p-0"
+            imgClasses={cardsClasses}
+            click={setBigProduct}
+          />
         </div>
       </div>
     </div>

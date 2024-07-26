@@ -82,7 +82,7 @@ export default function Foodsupplements() {
           <BannerSlider
             desktopBanners={ManSlimBanner}
             mobileBanners={tempmobileBanner}
-            swiperClass={"slim-slider !mb-0 !mt-0"}
+            swiperClass={"slim-slider !mb-0 !mt-0 hideButtons"}
           />
           <section className=" flex gap-3 max-md:mt-8 max-md:flex-col md:mt-10">
             <Image
@@ -145,14 +145,14 @@ export default function Foodsupplements() {
               </div>
               <CardsSlider2
                 products={dailyOffers}
-                swiperClassName="max-md:!p-0"
+                swiperClassName="!p-0 NextButtonSwiperPrev0PX"
               />
             </div>
             <Link
               href={"/"}
-              className="mr-3 mt-2 hidden text-[12px] max-md:block"
+              className="mr-3 mt-2 hidden text-[12px] !font-[400] max-md:block"
             >
-              عرض الكل »
+              <span className="!font-[500]">عرض الكل </span>»
             </Link>
           </section>
           <section>
@@ -166,7 +166,7 @@ export default function Foodsupplements() {
           <section className="mb-10 mt-[32px] flex min-h-fit w-full flex-row max-md:mb-8 max-md:flex-col md:mt-10 md:gap-3">
             <div className="leftSide mx-auto w-auto flex-none max-md:!w-[calc(100%_-_26px)] 2xl:w-[301px]">
               <div className="mx-auto mb-[13px] flex h-[44px] w-[100%] items-center justify-center bg-[#C33849] px-2 text-[20px] font-[700] text-white md:w-full 2xl:mx-0">
-                عروض الملابس النسائية
+                عروض السوبرماركت
               </div>
               <WomenSidebarSection
                 WebImg="/imgs/foodFashion/sideImg2.png"
@@ -181,10 +181,10 @@ export default function Foodsupplements() {
               />
               <div className="section-title !mb-[5px] !mt-[13px] flex !items-center bg-[#C33849] !px-[13px] !py-[10px] md:!mb-[10px] md:!mt-[16px] md:!py-[14px]">
                 <h2 className="lg:text-[18px]#383838 hidden text-[18px] font-[700] text-white lg:block">
-                  عروض بيوتي على الملابس النسائية
+                  عروض بيوتي على السوبرماركت
                 </h2>
                 <h2 className="block text-[13px] font-[700] text-white lg:hidden lg:text-[18px]">
-                  عروض الملابس النسائية
+                  عروض السوبرماركت
                 </h2>
                 <div className="displayAll !bg-white !text-black">
                   <a href="/">عرض الكل</a>
@@ -213,14 +213,14 @@ export default function Foodsupplements() {
             <ShopasPrice
               circles={foodCircles}
               color="FFF1F1"
-              position={"!ml-[-25px]"}
+              position={"!ml-[-25px] max-md:mx-3"}
               img="/imgs/foodFashion/shopasprice/mainImg.png"
             />
           </div>
           <section className="mb-6 mt-8 flex w-full flex-col md:mt-10 md:flex-row md:!items-center 2xl:max-h-[350px]">
             <div className="leftSide h-fit w-auto flex-none md:!ml-[19px]">
               <div className="section-title !mx-3 !mb-0 !mt-0 !flex !items-center !justify-center bg-[#C33849] !px-[13px] !py-[10px] md:!hidden">
-                <h2 className=" text-[16px] font-[500] text-white">
+                <h2 className="text-[14px] font-[500] text-white md:text-[16px]">
                   الأعلى تقييماً المواد الغذائية و المكملات
                 </h2>
               </div>
@@ -229,7 +229,7 @@ export default function Foodsupplements() {
                 mobileImg="/imgs/foodFashion/sideImgMobile3.svg"
               />
             </div>
-            <div className="rightSide mr-1 flex h-fit w-auto flex-1 flex-col overflow-hidden">
+            <div className="rightSide flex h-fit w-auto flex-1 flex-col overflow-hidden max-md:mr-1">
               <div className="section-title !mb-[17px] !mt-0 !hidden !items-center !py-0 !pl-0 !pr-4 md:!flex">
                 <h2 className="text-[19px] font-[500] text-[#383838]">
                   الأعلى تقييماً المواد الغذائية و المكملات
@@ -240,14 +240,14 @@ export default function Foodsupplements() {
               </div>
               <CardsSlider2
                 products={dailyOffers}
-                swiperClassName="max-md:!p-0"
+                swiperClassName="!p-0 NextButtonSwiperPrev0PX"
               />
             </div>
             <Link
               href={"/"}
-              className="mr-3 mt-2 hidden text-[12px] max-md:block"
+              className="mr-3 mt-2 hidden text-[12px] !font-[400] max-md:block"
             >
-              عرض الكل »
+              <span className="!font-[500]">عرض الكل </span>»
             </Link>
           </section>
           <DoubleBanner
@@ -266,9 +266,9 @@ export default function Foodsupplements() {
           <section className="LatestKidsWears my-10 max-md:my-8">
             {" "}
             <GlassesMostSelled
-              classNames="bg-[#C33849] text-white startButtonSwiper"
+              classNames="bg-[#C33849] text-white"
               text="الأكثر مبيعاً الفيتامينات و المكملات الغذائية"
-              glassClassName="!rounded-none text-center"
+              glassClassName="!rounded-none text-center !rounded-[20px]"
               products={mostSelledVitaminsProducts}
             />
           </section>
@@ -280,7 +280,7 @@ export default function Foodsupplements() {
             />
           </section>
           <section>
-            <div className="title mt-8 flex w-full justify-center md:mb-8 md:mt-10">
+            <div className="title mb-4 mt-8 flex w-full justify-center md:mb-8 md:mt-10">
               <h1 className="text-[13px] font-[400] md:text-[22px]">
                 منتجات الحلويات و التسالي
               </h1>

@@ -4463,6 +4463,10 @@ section.PinkBigBrandSection .swiper-button-prev {
   left: -5px !important;
 }
 
+.NextButtonSwiperPrev0PX .swiper-button-prev {
+  right: initial !important;
+}
+
 .Recommended-slider .products .img-container span.verify-beauty.imp {
   display: none !important;
 }

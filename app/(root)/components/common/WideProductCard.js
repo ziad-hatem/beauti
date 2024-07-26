@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Rating from "../common/Rating";
 import Stars2 from "@/components/common/Stars2";
-const WideProductCard = ({ product, multiSubSection,btnBg="#383838",btnHovBg="#828282" }) => {
+const WideProductCard = ({
+  product,
+  multiSubSection,
+  btnBg = "#383838",
+  btnHovBg = "#828282",
+}) => {
   return (
     <div
       className={
@@ -15,7 +20,7 @@ const WideProductCard = ({ product, multiSubSection,btnBg="#383838",btnHovBg="#8
           loading="lazy"
           src={product.img}
           alt=""
-          className="!h-full w-fit transition-all duration-500 group-hover:scale-125"
+          className="w-auto transition-all duration-500 group-hover:scale-125 max-mobileLg:!h-[65%]"
         />
       </div>
 
@@ -46,7 +51,9 @@ const WideProductCard = ({ product, multiSubSection,btnBg="#383838",btnHovBg="#8
             </div>
           </div>
         </div>
-        <button className={`flex h-[19px] w-[64px] items-center justify-center gap-0.5 ${btnBg} transition-all ${btnHovBg} md:h-[33px] md:w-[120px] md:gap-3 xl:w-[184px]`}>
+        <button
+          className={`flex h-[19px] w-[64px] items-center justify-center gap-0.5 ${btnBg} transition-all ${btnHovBg} md:h-[33px] md:w-[120px] md:gap-3 xl:w-[184px]`}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="19"
