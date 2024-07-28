@@ -7,8 +7,8 @@ import "swiper/css/scrollbar";
 import Link from "next/link";
 
 const Product = ({ product }) => (
-  <Link href={"/"} className="max-mobileLg:!w-[calc(100%_-_20px)]">
-    <div className="!h-auto !w-full rounded-[20px] border-[1px] !border-solid !border-[#CACACA]">
+  <Link href={"/"} className="block">
+    <div className="!h-auto !w-[calc(100vw_-_10px)] max-w-[300px] rounded-[20px] border-[1px] !border-solid !border-[#CACACA] md:!w-[234px]">
       <div className="image flex !h-auto !w-full items-center justify-center rounded-[32px]">
         <Image
           src={product.img}
@@ -43,24 +43,27 @@ const Entertainments = ({ data }) => {
         }}
         breakpoints={{
           320: {
-            slidesPerView: 1,
+            slidesPerView: "auto",
             centeredSlides: true,
+          },
+          340: {
+            centeredSlides: false,
           },
           640: {
             slidesPerView: "auto",
             centeredSlides: false,
           },
         }}
-        className="mySwiper-all products hideButtons customScrollBar !mt-0 max-md:!pb-[30px]"
+        className="mySwiper-all products hideButtons customScrollBar !mt-0 max-md:!pb-[35px]"
       >
         {data.map((e, i) => {
           if (i % 2 !== 0) return null;
           return (
             <SwiperSlide
-              className="flex !w-full !items-center !justify-center mobileLg:!max-w-[230px]"
+              className="flex !w-[unset] !items-center !justify-center md:!w-fit"
               key={i}
             >
-              <div className="flex flex-col !items-center gap-3">
+              <div className="flex !w-full max-w-[300px] flex-col !items-center gap-3">
                 <Product product={e} key={i} />
                 {data[i + 1] && <Product product={data[i + 1]} key={i + 1} />}
               </div>

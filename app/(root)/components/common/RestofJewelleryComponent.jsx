@@ -69,7 +69,13 @@ const JewelleryWideComponent = ({ name, img, bgcolor }) => {
   );
 };
 
-const RestofJewelleryComponent = ({ mainImg, bgcolor, bgHover, data }) => {
+const RestofJewelleryComponent = ({
+  mainImg,
+  bgcolor,
+  bgHover,
+  data,
+  sectionClassName,
+}) => {
   const swiperRef = useRef(null);
 
   useEffect(() => {
@@ -86,6 +92,8 @@ const RestofJewelleryComponent = ({ mainImg, bgcolor, bgHover, data }) => {
               src={mainImg}
               width={100}
               height={100}
+              unoptimized
+              loading="lazy"
               className="h-full w-full rounded-lg object-cover"
             />
             <div className="absolute bottom-5 right-3 hidden w-full md:flex">

@@ -56,14 +56,18 @@ const jewellery = [
 //     </Link>
 //   );
 // };
-export const JewelleryComponent = ({ name, img }) => {
+export const JewelleryComponent = ({ name, img, bg = "#FFEBF2" }) => {
   return (
     <Link href="/" className="Jewellery group">
-      <div className="image flex h-[128px] w-[104px] items-center justify-center bg-[#FFEBF2] p-4 max-md:h-[53.75vw] max-md:w-[44.4vw]">
+      <div
+        className={`image flex h-[128px] w-[104px] items-center justify-center bg-[${bg}] p-4 max-md:h-[53.75vw] max-md:w-[44.4vw]`}
+      >
         <Image
           src={img}
           width={100}
           height={100}
+          unoptimized
+          loading="lazy"
           className=" mix-blend-multiply"
         />
       </div>
@@ -81,6 +85,8 @@ const KidsJewellery = ({
   mainImg = "/imgs/bigjewellery.svg",
   bgcolor = "#fafafa",
   jewelleryData,
+  sectionClassName = "",
+  bgHover,
 }) => {
   const [active, setActive] = useState(1);
   const swiperRef = useRef(null);
@@ -119,9 +125,12 @@ const KidsJewellery = ({
               return (
                 <SwiperSlide key={index} className="!h-fit !w-fit">
                   {jewelleryData ? (
-                    <JewelleryComponent {...jewelleryData[index]} />
+                    <JewelleryComponent
+                      bg={bgcolor}
+                      {...jewelleryData[index]}
+                    />
                   ) : (
-                    <JewelleryComponent {...jewellery[index]} />
+                    <JewelleryComponent bg={bgcolor} {...jewellery[index]} />
                   )}
                 </SwiperSlide>
               );
@@ -142,7 +151,9 @@ const KidsJewellery = ({
           <RestofJewelleryComponent
             mainImg={mainImg}
             bgcolor={bgcolor}
+            bgHover={bgHover}
             data={jewelleryData}
+            sectionClassName={sectionClassName}
           />
         </div>
       </div>

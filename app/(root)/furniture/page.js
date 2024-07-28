@@ -88,6 +88,9 @@ import {
   wWatchesEconomy,
   girlJewellery,
   smartWatches,
+  furniture,
+  furniture2,
+  furniture3,
 } from "@/data/fashionData";
 import Image from "next/image";
 import Link from "next/link";
@@ -136,22 +139,33 @@ export default function FurniturePage() {
           <FurnitureDoubleGallary products={furnitureDoubleGallary} />
           <div className="my-8 h-full w-full">
             <SectionTitle name={"تسوق حسب الرغبة"} />
-            <ShopasDesiredSlider data={ShopasDesiredSliderFurniture} ratio="176/224" height="!h-[unset]" />
+            <ShopasDesiredSlider
+              data={ShopasDesiredSliderFurniture}
+              ratio="176/224"
+              height="!h-[unset]"
+            />
           </div>
           <section className="w-full">
             {" "}
             <SectionTitle name={"أثاثك حسب الغرفة"} />
-            <WomenWatch bgcolor="#F5F5F5"
-            fourImages={[
-              {image: "/imgs/furniture/image 290.png", title: "أثاث خارجي"},
-              {image: "/imgs/furniture/image 291.png", title: "المطبخ"},
-              {image: "/imgs/furniture/image 292.png", title: "أثاث مكتبي"},
-              {image: "/imgs/furniture/image 293.png", title: "غرفة الطعام"}
-            ]}
-            BigImages={[
-              {image: "/imgs/furniture/image 288.png", title: "غرفة النوم"},
-              {image: "/imgs/furniture/image 289.png", title: "غرفة المعيشة"},
-            ]}
+            <WomenWatch
+              bgcolor="#F5F5F5"
+              fourImages={[
+                { image: "/imgs/furniture/image 290.png", title: "أثاث خارجي" },
+                { image: "/imgs/furniture/image 291.png", title: "المطبخ" },
+                { image: "/imgs/furniture/image 292.png", title: "أثاث مكتبي" },
+                {
+                  image: "/imgs/furniture/image 293.png",
+                  title: "غرفة الطعام",
+                },
+              ]}
+              BigImages={[
+                { image: "/imgs/furniture/image 288.png", title: "غرفة النوم" },
+                {
+                  image: "/imgs/furniture/image 289.png",
+                  title: "غرفة المعيشة",
+                },
+              ]}
             />
           </section>
           <section className="offers !mt-8 md:!mt-10">
@@ -170,12 +184,15 @@ export default function FurniturePage() {
                   الأعلى تقييماً المنزل و الديكور
                 </h2>
               </div>
-              <WomenSidebarSection2 img="/imgs/furniture/Frame 39947.png" mobileImg="/imgs/furniture/Frame 39947m.png" />
+              <WomenSidebarSection2
+                img="/imgs/furniture/Frame 39947.png"
+                mobileImg="/imgs/furniture/Frame 39947m.png"
+              />
             </div>
             <div className="rightSide flex flex-1 flex-col justify-center overflow-hidden">
               <div className="section-title !mb-[17px] !ml-0 !mt-0 !hidden !items-center !py-0 !pl-0 !pr-4 md:!flex">
                 <h2 className="text-[19px] font-[500] text-[#383838]">
-                الأعلى تقييماً المنزل و الديكور
+                  الأعلى تقييماً المنزل و الديكور
                 </h2>
                 <div className="displayAll !bg-[#383838] !text-white">
                   <a href="/">عرض الكل</a>
@@ -236,15 +253,18 @@ export default function FurniturePage() {
             <div className="leftSide w-auto flex-none md:!ml-[19px] md:w-fit">
               <div className="section-title !mx-3 !mb-0 !mt-0 !flex !items-center !justify-center bg-[#FF9697] !px-[13px] !py-[10px] md:!hidden">
                 <h2 className="text-[16px] font-[500] text-white">
-                أحدث المنتجات المنزل و الديكور
+                  أحدث المنتجات المنزل و الديكور
                 </h2>
               </div>
-              <WomenSidebarSection2 img="/imgs/furniture/Frame 39947.png" mobileImg="/imgs/furniture/Frame 39947m.png" />
+              <WomenSidebarSection2
+                img="/imgs/furniture/Frame 39947.png"
+                mobileImg="/imgs/furniture/Frame 39947m.png"
+              />
             </div>
             <div className="rightSide flex flex-1 flex-col justify-center overflow-hidden">
               <div className="section-title !mb-[17px] !ml-0 !mt-0 !hidden !items-center !py-0 !pl-0 !pr-4 md:!flex">
                 <h2 className="text-[19px] font-[500] text-[#383838]">
-                أحدث المنتجات المنزل و الديكور
+                  أحدث المنتجات المنزل و الديكور
                 </h2>
                 <div className="displayAll !bg-[#383838] !text-white">
                   <a href="/">عرض الكل</a>
@@ -264,19 +284,20 @@ export default function FurniturePage() {
               عرض الكل »
             </Link>
           </section>
-          <section className="kidsJewellery">
+          <section className="furniture">
             <KidsJewellery
-              HeaderImg="/imgs/furniture/image 279.png"
+              HeaderImg="/imgs/furniture/headImg3.png"
               HeaderText="تزيين المنزل"
-              mainImg="/imgs/furniture/8accea8c47a47a4677c8dc51ba1dca8b 1.png"
-              bgcolor="#000"
-              jewelleryData={girlJewellery}
+              mainImg="/imgs/furniture/mainImg3.png"
+              bgcolor="#F5F5F5"
+              jewelleryData={furniture3}
+              bgHover="#7E6B5C"
             />
           </section>
           <section className="mt-[32px] flex min-h-fit w-full flex-row max-md:flex-col md:mt-10">
             <div className="leftSide mx-auto w-fit flex-shrink-0 max-md:!w-[calc(100%_-_26px)] xl:w-[301px]">
               <div className="mx-auto mb-[13px] flex h-[44px] w-[100%] items-center justify-center bg-[#7E6B5C] px-2 text-[20px] font-[700] text-[#FFFFFF] max-lg:text-[15px] md:w-full 2xl:mx-0">
-              عروض المنزل و الديكور
+                عروض المنزل و الديكور
               </div>
               <WomenSidebarSection
                 WebImg="/imgs/kidsFashion/sideImg2.svg"
@@ -284,10 +305,13 @@ export default function FurniturePage() {
               />
             </div>
             <div className="rightSide flex h-fit w-full flex-grow flex-col overflow-hidden pt-3 md:mr-[13px]">
-              <Widebanner products={furnitureProducts} buttonbg={"bg-[#383838]"} />
+              <Widebanner
+                products={furnitureProducts}
+                buttonbg={"bg-[#383838]"}
+              />
               <div className="section-title !mb-[5px] !mt-[13px] flex !h-[35px] !items-center bg-[#7E6B5C] !px-[13px] md:!mb-[10px] md:!mt-[16px] md:!h-[39px]">
                 <h2 className="block text-[13px] font-[700] !text-[#FFFFFF] lg:text-[18px]">
-                عروض بيوتي على المنزل و الديكور
+                  عروض بيوتي على المنزل و الديكور
                 </h2>
                 <div className="displayAll !bg-white !text-[#383838]">
                   <a href="/">عرض الكل</a>
@@ -372,10 +396,9 @@ export default function FurniturePage() {
             swiperClass={"slim-slider mt-6 !mb-0 !h-[138px] md:!h-[208px]"}
           />
           <section>
-            <SectionTitle name={"مستلزمات المطبخ"} color={"#383838"}/>
+            <SectionTitle name={"مستلزمات المطبخ"} color={"#383838"} />
             <KitchenTools
-              products={
-                [
+              products={[
                 {
                   name: "البدلات وجاكيتات",
                   img: "/imgs/furniture/5w 1.png",
@@ -425,9 +448,8 @@ export default function FurniturePage() {
                   name: "الجينز و الشورتات",
                   img: "/imgs/furniture/5w 1.png",
                   href: "#",
-                }
-              ]
-              }
+                },
+              ]}
               mainImage={"./imgs/furniture/image 296.png"}
             />
           </section>
@@ -435,15 +457,18 @@ export default function FurniturePage() {
             <div className="leftSide w-auto flex-none md:!ml-[19px] md:w-fit">
               <div className="section-title !mx-3 !mb-0 !mt-0 !flex !items-center !justify-center bg-[#FF9697] !px-[13px] !py-[10px] md:!hidden">
                 <h2 className="text-[16px] font-[500] text-white">
-                الأعلى تقييماً المنزل و الديكور
+                  الأعلى تقييماً المنزل و الديكور
                 </h2>
               </div>
-              <WomenSidebarSection2 img="/imgs/furniture/Frame 39947.png" mobileImg="/imgs/furniture/Frame 39947m.png" />
+              <WomenSidebarSection2
+                img="/imgs/furniture/Frame 39947.png"
+                mobileImg="/imgs/furniture/Frame 39947m.png"
+              />
             </div>
             <div className="rightSide flex flex-1 flex-col justify-center overflow-hidden">
               <div className="section-title !mb-[17px] !ml-0 !mt-0 !hidden !items-center !py-0 !pl-0 !pr-4 md:!flex">
                 <h2 className="text-[19px] font-[500] text-[#383838]">
-                الأعلى تقييماً المنزل و الديكور
+                  الأعلى تقييماً المنزل و الديكور
                 </h2>
                 <div className="displayAll !bg-[#383838] !text-white">
                   <a href="/">عرض الكل</a>
@@ -464,212 +489,214 @@ export default function FurniturePage() {
             </Link>
           </section>
 
-
           <PerfumesBlocks
-              mainImg="/imgs/furniture/smelly.png"
-              mobileImg="/imgs/furniture/smelly.png"
-              mainImgTitle={"العود و دهن العود"}
-              bgColor={"bg-[#F5F5F5]"}
-              color={"text-[#383838]"}
-              data={[
-                {
-                  name: "مباخر عود",
-                  img: "/imgs/furniture/3ba 1.png",
-                  mobileImg: "/imgs/furniture/3ba 1.png",
-                },
-                {
-                  name: "أقراص العود",
-                  img: "/imgs/furniture/1ba 1.png",
-                  mobileImg: "/imgs/furniture/1ba 1.png",
-                },
-                {
-                  name: "توزيعات العود",
-                  img: "/imgs/furniture/2ba 1.png",
-                  mobileImg: "/imgs/furniture/2ba 1.png",
-                },
-                {
-                  name: "رقائق العود",
-                  img: "/imgs/furniture/4ba 1.png",
-                  mobileImg: "/imgs/furniture/4ba 1.png",
-                },
-                {
-                  name: "دهن العود",
-                  img: "/imgs/furniture/5ba 1.png",
-                  mobileImg: "/imgs/furniture/5ba 1.png",
-                },
-                {
-                  name: "عطور العود ",
-                  img: "/imgs/furniture/6ba 1.png",
-                  mobileImg: "/imgs/furniture/6ba 1.png",
-                },
-              ]}
-            />
+            mainImg="/imgs/furniture/smelly.png"
+            mobileImg="/imgs/furniture/smelly.png"
+            mainImgTitle={"العود و دهن العود"}
+            bgColor={"bg-[#F5F5F5]"}
+            color={"text-[#383838]"}
+            data={[
+              {
+                name: "مباخر عود",
+                img: "/imgs/furniture/3ba 1.png",
+                mobileImg: "/imgs/furniture/3ba 1.png",
+              },
+              {
+                name: "أقراص العود",
+                img: "/imgs/furniture/1ba 1.png",
+                mobileImg: "/imgs/furniture/1ba 1.png",
+              },
+              {
+                name: "توزيعات العود",
+                img: "/imgs/furniture/2ba 1.png",
+                mobileImg: "/imgs/furniture/2ba 1.png",
+              },
+              {
+                name: "رقائق العود",
+                img: "/imgs/furniture/4ba 1.png",
+                mobileImg: "/imgs/furniture/4ba 1.png",
+              },
+              {
+                name: "دهن العود",
+                img: "/imgs/furniture/5ba 1.png",
+                mobileImg: "/imgs/furniture/5ba 1.png",
+              },
+              {
+                name: "عطور العود ",
+                img: "/imgs/furniture/6ba 1.png",
+                mobileImg: "/imgs/furniture/6ba 1.png",
+              },
+            ]}
+          />
           <PerfumesBlocks
-              mainImg="/imgs/furniture/smelly.png"
-              mobileImg="/imgs/furniture/smelly.png"
-              mainImgTitle={"العود و دهن العود"}
-              dir="flex-row-reverse"
-              bgColor={"bg-[#F5F5F5]"}
-              color={"text-[#383838]"}
-              data={[
-                {
-                  name: "مباخر عود",
-                  img: "/imgs/furniture/3ba 1.png",
-                  mobileImg: "/imgs/furniture/3ba 1.png",
-                },
-                {
-                  name: "أقراص العود",
-                  img: "/imgs/furniture/1ba 1.png",
-                  mobileImg: "/imgs/furniture/1ba 1.png",
-                },
-                {
-                  name: "توزيعات العود",
-                  img: "/imgs/furniture/2ba 1.png",
-                  mobileImg: "/imgs/furniture/2ba 1.png",
-                },
-                {
-                  name: "رقائق العود",
-                  img: "/imgs/furniture/4ba 1.png",
-                  mobileImg: "/imgs/furniture/4ba 1.png",
-                },
-                {
-                  name: "دهن العود",
-                  img: "/imgs/furniture/5ba 1.png",
-                  mobileImg: "/imgs/furniture/5ba 1.png",
-                },
-                {
-                  name: "عطور العود ",
-                  img: "/imgs/furniture/6ba 1.png",
-                  mobileImg: "/imgs/furniture/6ba 1.png",
-                },
-              ]}
-            />
-          <section className="kidsJewellery">
+            mainImg="/imgs/furniture/smelly.png"
+            mobileImg="/imgs/furniture/smelly.png"
+            mainImgTitle={"العود و دهن العود"}
+            dir="flex-row-reverse"
+            bgColor={"bg-[#F5F5F5]"}
+            color={"text-[#383838]"}
+            data={[
+              {
+                name: "مباخر عود",
+                img: "/imgs/furniture/3ba 1.png",
+                mobileImg: "/imgs/furniture/3ba 1.png",
+              },
+              {
+                name: "أقراص العود",
+                img: "/imgs/furniture/1ba 1.png",
+                mobileImg: "/imgs/furniture/1ba 1.png",
+              },
+              {
+                name: "توزيعات العود",
+                img: "/imgs/furniture/2ba 1.png",
+                mobileImg: "/imgs/furniture/2ba 1.png",
+              },
+              {
+                name: "رقائق العود",
+                img: "/imgs/furniture/4ba 1.png",
+                mobileImg: "/imgs/furniture/4ba 1.png",
+              },
+              {
+                name: "دهن العود",
+                img: "/imgs/furniture/5ba 1.png",
+                mobileImg: "/imgs/furniture/5ba 1.png",
+              },
+              {
+                name: "عطور العود ",
+                img: "/imgs/furniture/6ba 1.png",
+                mobileImg: "/imgs/furniture/6ba 1.png",
+              },
+            ]}
+          />
+          <section className="furniture">
             <KidsJewellery
-              HeaderImg="/imgs/furniture/image 279.png"
+              HeaderImg="/imgs/furniture/headImg2.png"
               HeaderText="مفروشات و منسوجات"
-              mainImg="/imgs/furniture/8accea8c47a47a4677c8dc51ba1dca8b 1.png"
-              bgcolor="#FAFAFA"
-              jewelleryData={girlJewellery}
+              mainImg="/imgs/furniture/mainImg2.png"
+              bgcolor="#F5F5F5"
+              jewelleryData={furniture2}
+              bgHover="#7E6B5C"
             />
           </section>
-            <section>
-              <SectionTitle color={"#383838"} name={"المراتب"} >
-              </SectionTitle>
-              <Mattresses 
+          <section>
+            <SectionTitle color={"#383838"} name={"المراتب"}></SectionTitle>
+            <Mattresses
               sideImg={"/imgs/furniture/image 297.png"}
               mobileSideImg={"/imgs/furniture/image 238.png"}
               titleBg={"bg-[#F5F5F5]"}
-              products={
-                  [
-                  {
-                    title: "مراتب مزدوجة",
-                    img: "/imgs/furniture/image 299.png",
-                    href: "#",
-                  },
-                  {
-                    title: "مراتب كينغ",
-                    img: "/imgs/furniture/image 300.png",
-                    href: "#",
-                  },
-                  {
-                    title: "مراتب سوبر كينغ",
-                    img: "/imgs/furniture/image 301.png",
-                    href: "#",
-                  },
-                  {
-                    title: "مراتب كوين",
-                    img: "/imgs/furniture/ewdf 1.png",
-                    href: "#",
-                  },
-                  {
-                    title: "مراتب فردية",
-                    img: "/imgs/furniture/image 303.png",
-                    href: "#",
-                  },
-                  {
-                    title: "مراتب أطفال",
-                    img: "/imgs/furniture/image 304.png",
-                    href: "#",
-                  }
-                ]}
-                
-                />
-            </section>
+              products={[
+                {
+                  title: "مراتب مزدوجة",
+                  img: "/imgs/furniture/image 299.png",
+                  href: "#",
+                },
+                {
+                  title: "مراتب كينغ",
+                  img: "/imgs/furniture/image 300.png",
+                  href: "#",
+                },
+                {
+                  title: "مراتب سوبر كينغ",
+                  img: "/imgs/furniture/image 301.png",
+                  href: "#",
+                },
+                {
+                  title: "مراتب كوين",
+                  img: "/imgs/furniture/ewdf 1.png",
+                  href: "#",
+                },
+                {
+                  title: "مراتب فردية",
+                  img: "/imgs/furniture/image 303.png",
+                  href: "#",
+                },
+                {
+                  title: "مراتب أطفال",
+                  img: "/imgs/furniture/image 304.png",
+                  href: "#",
+                },
+              ]}
+            />
+          </section>
           <section className="ImgsOffersSlider offers Recommended !mb-0 !mt-0">
-            <SectionTitle name={"مفروشات قد تعجبك"} color={"#383838"}/>
+            <SectionTitle name={"مفروشات قد تعجبك"} color={"#383838"} />
             <Recommended products={recommendedProducts} />
           </section>
           <div className="mt-10">
-            <ShopasPrice circles={furniturecircles} img="/imgs/furniture/image 405.png" />
+            <ShopasPrice
+              circles={furniturecircles}
+              img="/imgs/furniture/image 405.png"
+            />
           </div>
           <section className="shopasBrand">
             <SectionTitle name={"العناية و التنظيف المنزلية"} />
-            <ShopasBrand brands={
-              [
+            <ShopasBrand
+              brands={[
                 {
                   img: "/imgs/furniture/Frame 399709.png",
-                  title: "مبيدات حشرية"
+                  title: "مبيدات حشرية",
                 },
                 {
                   img: "/imgs/furniture/Frame 399708.png",
-                  title: "العناية بالمفروشات"
+                  title: "العناية بالمفروشات",
                 },
                 {
                   img: "/imgs/furniture/Frame 399707.png",
-                  title: "العناية بالمطبخ"
+                  title: "العناية بالمطبخ",
                 },
                 {
                   img: "/imgs/furniture/Frame 399706.png",
-                  title: "العناية بالحمام"
+                  title: "العناية بالحمام",
                 },
                 {
                   img: "/imgs/furniture/Frame 399710.png",
-                  title: "معطرات المفارش"
+                  title: "معطرات المفارش",
                 },
                 {
                   img: "/imgs/furniture/Frame 399711.png",
-                  title: "ورق حمام و مطبخ"
+                  title: "ورق حمام و مطبخ",
                 },
                 {
                   img: "/imgs/furniture/Frame 399712.png",
-                  title: "العناية بالملابس"
+                  title: "العناية بالملابس",
                 },
                 {
                   img: "/imgs/furniture/Frame 399713.png",
-                  title: "مناديل"
+                  title: "مناديل",
                 },
-              ]
-            } />
+              ]}
+            />
           </section>
           <section>
             <SectionTitle name={"العناية و التنظيف المنزلية"} />
-            <NormalImgSlider images={[
-              {
-                img: "/imgs/furniture/p 2.png"
-              },
-              {
-                img: "/imgs/furniture/t 1.png"
-              },
-              {
-                img: "/imgs/furniture/v 1.png"
-              },
-              {
-                img: "/imgs/furniture/h 1.png"
-              },
-              {
-                img: "/imgs/furniture/i 1.png"
-              },
-              {
-                img: "/imgs/furniture/t 1.png"
-              },
-              {
-                img: "/imgs/furniture/v 1.png"
-              },
-              {
-                img: "/imgs/furniture/h 1.png"
-              },
-            ]} />
+            <NormalImgSlider
+              images={[
+                {
+                  img: "/imgs/furniture/p 2.png",
+                },
+                {
+                  img: "/imgs/furniture/t 1.png",
+                },
+                {
+                  img: "/imgs/furniture/v 1.png",
+                },
+                {
+                  img: "/imgs/furniture/h 1.png",
+                },
+                {
+                  img: "/imgs/furniture/i 1.png",
+                },
+                {
+                  img: "/imgs/furniture/t 1.png",
+                },
+                {
+                  img: "/imgs/furniture/v 1.png",
+                },
+                {
+                  img: "/imgs/furniture/h 1.png",
+                },
+              ]}
+            />
           </section>
           <section className="gray round CardsSlider-p !mt-8 !pt-0 md:!mt-10">
             <div className="section-title !m-0 flex items-center max-md:!h-[35px] max-md:!bg-[#F5F5F5] max-md:!text-[13px] max-md:!text-[#383838] md:!pb-[10px] md:!pt-[5px]">
@@ -683,17 +710,21 @@ export default function FurniturePage() {
               classNames="NextButtonSwiperRight0PX"
             />
           </section>
-          <section className="kidsJewellery">
+          <section className="furniture">
             <KidsJewellery
-              HeaderImg="/imgs/kidsFashion/girlaccessories/header.svg"
+              HeaderImg="/imgs/furniture/headImg.png"
               HeaderText="أدوات تحسين المنزل"
-              mainImg="/imgs/kidsFashion/girlaccessories/bigimg.svg"
-              bgcolor="#FFEBF2"
-              jewelleryData={girlJewellery}
+              mainImg="/imgs/furniture/mainImg.png"
+              bgcolor="#F5F5F5"
+              jewelleryData={furniture}
+              bgHover="#7E6B5C"
             />
           </section>
           <section>
-            <SectionTitle color={"#383838"} name={"مستلزمات الحمام"}></SectionTitle>
+            <SectionTitle
+              color={"#383838"}
+              name={"مستلزمات الحمام"}
+            ></SectionTitle>
             <PathRoomSupplies />
           </section>
 
@@ -734,7 +765,7 @@ export default function FurniturePage() {
             <div className="leftSide w-auto flex-none md:!ml-[19px] md:w-fit">
               <div className="section-title !mx-3 !mb-0 !mt-0 !flex !items-center !justify-center bg-[#FF9697] !px-[13px] !py-[10px] md:!hidden">
                 <h2 className="text-[16px] font-[500] text-white">
-                عروض الديكور و الأثاث الخارجي
+                  عروض الديكور و الأثاث الخارجي
                 </h2>
               </div>
               <WomenSidebarSection2 />
@@ -742,7 +773,7 @@ export default function FurniturePage() {
             <div className="rightSide flex flex-1 flex-col justify-center overflow-hidden">
               <div className="section-title !mb-[17px] !ml-0 !mt-0 !hidden !items-center !py-0 !pl-0 !pr-4 md:!flex">
                 <h2 className="text-[19px] font-[500] text-[#383838]">
-                الأكثر مبيعاً الديكور والمنزل
+                  الأكثر مبيعاً الديكور والمنزل
                 </h2>
                 <div className="displayAll !bg-[#383838] !text-white">
                   <a href="/">عرض الكل</a>

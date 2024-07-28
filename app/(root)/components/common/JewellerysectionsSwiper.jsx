@@ -24,21 +24,20 @@ const sections = [
 ];
 
 const Section = ({ name, active, id, setActive, bgHover }) => {
-  console.log(bgHover);
   return (
     <Link
       href={"/"}
       onClick={() => setActive(id)}
       className={`sectionName flex h-[25.32px] items-center justify-center rounded-lg bg-white hover:text-white max-md:bg-[#F5F5F5] md:h-[30px] ${
         id == active ? "text-white" : "text-[" + bgHover + "]"
-      }  ${id == active && `!bg-[#${bgHover}]`} transition-all`}
+      }  ${id == active && `!bg-[${bgHover}]`} transition-all`}
     >
       <h3 className={`text-[11px] md:text-sm`}>{name}</h3>
     </Link>
   );
 };
 
-const JewellerysectionsSwiper = ({ bgHover = "383838" }) => {
+const JewellerysectionsSwiper = ({ bgHover = "#383838" }) => {
   const [active, setActive] = useState(1);
   const swiperRef = useRef(null);
 

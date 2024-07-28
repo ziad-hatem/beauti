@@ -114,7 +114,7 @@ export default function Offers({
                           {offer.section}
                         </a>
                       </div>
-                      <div className="product-name max-tabletStart:!text-[calc(2vw_+_0.6vw)] max-tabletStart:!pt-[calc(1vw_+_8%)] !mt-2 !text-[8px] !leading-normal md:!text-[13px] lg:!mt-3">
+                      <div className="product-name !mt-2 !text-[8px] !leading-normal max-tabletStart:!pt-[calc(1vw_+_8%)] max-tabletStart:!text-[calc(2vw_+_0.6vw)] md:!text-[13px] lg:!mt-3">
                         {offer.title}
                       </div>
                       <div className="price max-tabletStart:mt-[2%]">
@@ -184,7 +184,7 @@ export default function Offers({
                           {offersTwo[i].section}
                         </a>
                       </div>
-                      <div className="product-name max-tabletStart:!text-[calc(2vw_+_0.6vw)] max-tabletStart:!pt-[calc(1vw_+_8%)] !mt-2 !text-[8px] !leading-normal md:!text-[13px] lg:!mt-3">
+                      <div className="product-name !mt-2 !text-[8px] !leading-normal max-tabletStart:!pt-[calc(1vw_+_8%)] max-tabletStart:!text-[calc(2vw_+_0.6vw)] md:!text-[13px] lg:!mt-3">
                         {offersTwo[i].title}
                       </div>
                       <div className="price max-tabletStart:mt-[2%]">

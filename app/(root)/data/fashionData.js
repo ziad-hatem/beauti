@@ -4505,6 +4505,97 @@ export const girlJewellery = [
   },
 ];
 
+export const furniture = [
+  {
+    name: "أدوات كهربائية",
+    img: "/imgs/furniture/tools/img1.png",
+  },
+  {
+    name: "أدوات الحمام",
+    img: "/imgs/furniture/tools/img2.png",
+  },
+  {
+    name: "الدواليب",
+    img: "/imgs/furniture/tools/img3.png",
+  },
+  {
+    name: "أقفال أبواب",
+    img: "/imgs/furniture/tools/img4.png",
+  },
+  {
+    name: "كهربائيات",
+    img: "/imgs/furniture/tools/img5.png",
+  },
+  {
+    name: "مغاسل",
+    img: "/imgs/furniture/tools/img6.png",
+  },
+  {
+    name: "أدوات صحية",
+    img: "/imgs/furniture/tools/img7.png",
+  },
+];
+export const furniture2 = [
+  {
+    name: "اغطية الكنب",
+    img: "/imgs/furniture/furniture/img1.png",
+  },
+  {
+    name: "شال الكنب",
+    img: "/imgs/furniture/furniture/img2.png",
+  },
+  {
+    name: "خداديات كنب",
+    img: "/imgs/furniture/furniture/img3.png",
+  },
+  {
+    name: "مفارش",
+    img: "/imgs/furniture/furniture/img4.png",
+  },
+  {
+    name: "البطانيات",
+    img: "/imgs/furniture/furniture/img5.png",
+  },
+  {
+    name: "المخدات",
+    img: "/imgs/furniture/furniture/img6.png",
+  },
+  {
+    name: "أطقم لحافات",
+    img: "/imgs/furniture/furniture/img7.png",
+  },
+];
+export const furniture3 = [
+  {
+    name: "معطرات",
+    img: "/imgs/furniture/decor/img1.png",
+  },
+  {
+    name: "زهور صناعي",
+    img: "/imgs/furniture/decor/img2.png",
+  },
+  {
+    name: "إضاءة وإنارة",
+    img: "/imgs/furniture/decor/img3.png",
+  },
+  {
+    name: "ساعات الحائط",
+    img: "/imgs/furniture/decor/img4.png",
+  },
+  {
+    name: "إطارات الحائط",
+    img: "/imgs/furniture/decor/img5.png",
+  },
+  {
+    name: "السجاد",
+    img: "/imgs/furniture/decor/img6.png",
+  },
+  {
+    name: "المرايا",
+    img: "/imgs/furniture/decor/img7.png",
+  },
+];
+
 import womenimg1 from "/public/imgs/womenFashion/shopasprice/img1.svg";
 import womenimg2 from "/public/imgs/womenFashion/shopasprice/img2.svg";
 import womenimg3 from "/public/imgs/womenFashion/shopasprice/img3.svg";
@@ -4939,5 +5030,53 @@ export const fitBudgetProducts = [
     title: "مزيل عرق",
     price: 1120,
     newPrice: 720,
+  },
+];
+import phoneImg1 from "/public/imgs/phones/firstSection/img1.png";
+import phoneImg2 from "/public/imgs/phones/firstSection/img2.png";
+import phoneImg3 from "/public/imgs/phones/firstSection/img3.png";
+import phoneImg4 from "/public/imgs/phones/firstSection/img4.png";
+import phoneImg5 from "/public/imgs/phones/firstSection/img5.png";
+
+export const phonesSliderdata = [
+  {
+    img: phoneImg1,
+    title: "جوالات",
+  },
+  {
+    img: phoneImg2,
+    title: "اكسسوارات الجوال",
+  },
+  {
+    img: phoneImg3,
+    title: "سماعات",
+  },
+  {
+    img: phoneImg4,
+    title: "حافظات الجوال",
+  },
+  {
+    img: phoneImg5,
+    title: "ساعات ذكية",
+  },
+  {
+    img: phoneImg1,
+    title: "جوالات",
+  },
+  {
+    img: phoneImg2,
+    title: "اكسسوارات الجوال",
+  },
+  {
+    img: phoneImg3,
+    title: "سماعات",
+  },
+  {
+    img: phoneImg4,
+    title: "حافظات الجوال",
+  },
+  {
+    img: phoneImg5,
+    title: "ساعات ذكية",
   },
 ];

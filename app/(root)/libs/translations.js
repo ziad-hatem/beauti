@@ -6,6 +6,7 @@ const translations = {
   boysFashion: "موضة الأولاد",
   womenFashion: "ازياء النساء",
   "Food&supplements": "المواد الغذائية والمكملات",
+  phones: "الجوالات والأجهزة اللوحية واكسسوارتها",
   // Add more translations as needed
 };
 

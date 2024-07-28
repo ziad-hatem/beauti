@@ -2763,7 +2763,7 @@ section.PinkBigBrandSection .swiper-button-prev {
 }
 
 .Jewellery {
-  background: linear-gradient(180deg, #fafafa 100%, #ffffff 100%);
+  background: linear-gradient(180deg, #fafafa 0%, #ffffff 100%);
 }
 
 @media (min-width: 768px) {
@@ -4498,6 +4498,10 @@ section.PinkBigBrandSection .swiper-button-prev {
 }
 .ManJewellery .sectionName:hover {
   background: #383838;
+}
+
+.furniture .sectionName:hover {
+  background: #7e6b5c;
 }
 
 @media (max-width: 768px) {
