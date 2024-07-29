@@ -9,13 +9,21 @@ import Link from "next/link";
 const Product = ({ product }) => (
   <Link href={"/"} className="block">
     <div className="!h-auto !w-[calc(100vw_-_10px)] max-w-[300px] rounded-[20px] border-[1px] !border-solid !border-[#CACACA] md:!w-[234px]">
-      <div className="image flex !h-auto !w-full items-center justify-center rounded-[32px]">
+      <div className="image relative flex !h-auto !w-full items-center justify-center rounded-[32px]">
         <Image
           src={product.img}
           width={100}
           height={100}
           unoptimized
           className="!h-auto !w-full rounded-t-[20px] object-cover"
+          loading="lazy"
+        />
+        <Image
+          src={product.brandImg}
+          width={100}
+          height={100}
+          unoptimized
+          className="absolute bottom-[-8%] left-[11px] !h-auto"
           loading="lazy"
         />
       </div>
@@ -26,7 +34,7 @@ const Product = ({ product }) => (
   </Link>
 );
 
-const Entertainments = ({ data }) => {
+const InternationalEarsBrand = ({ data }) => {
   return (
     <div className="flex flex-wrap gap-[21px]">
       <Swiper
@@ -75,4 +83,4 @@ const Entertainments = ({ data }) => {
   );
 };
 
-export default Entertainments;
+export default InternationalEarsBrand;

@@ -14,7 +14,7 @@ const Product = ({ product }) => (
         src={product.img}
         width={100}
         height={100}
-        className=" w-[90%] object-contain !mix-blend-multiply"
+        className="w-[90%] rounded-full object-contain !mix-blend-multiply"
         unoptimized
         loading="lazy"
       />
@@ -27,6 +27,7 @@ const Product = ({ product }) => (
 const Care = ({
   mainImg = "/imgs/foodFashion/care/mainImg.png",
   data = [],
+  classNameMainImg = "",
 }) => {
   return (
     <div
@@ -42,7 +43,7 @@ const Care = ({
           height={100}
           unoptimized
           loading="lazy"
-          className="mb-[-16px] h-auto w-[310px] mix-blend-multiply"
+          className={`mb-[-16px] h-auto w-[310px] mix-blend-multiply ${classNameMainImg}`}
         />
       </div>
       <Swiper

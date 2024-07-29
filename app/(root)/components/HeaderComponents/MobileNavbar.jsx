@@ -11,7 +11,6 @@ import Breadcrumbs from "@/libs/Breadcrumbs";
 
 const MobileNavbar = () => {
   const { breadcrumb, setBreadcrumb } = useContext(mainContext);
-  console.log(breadcrumb);
   return (
     <nav>
       <Breadcrumbs />

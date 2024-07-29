@@ -45,7 +45,7 @@ const Breadcrumbs = () => {
           <Link
             key={index}
             href={element.href}
-            className="flex items-center gap-[10.12px]"
+            className="flex items-center gap-[10.12px] text-[11px]"
             style={{
               color: index == 0 && "#666464",
             }}

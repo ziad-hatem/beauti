@@ -50,7 +50,7 @@ export default function SmallBrandSlider2({ brands }) {
         {brands.map((brand, i) => (
           <SwiperSlide
             key={i + "product"}
-            className="SmallBrandSlider2-card !h-[78px] !w-[78px] md:!h-[118px] md:!w-[118px] trnasition-linear"
+            className="SmallBrandSlider2-card trnasition-linear !h-[78px] !w-[78px] md:!h-[118px] md:!w-[118px]"
           >
             <Image src={brand.img} alt={i + "product"} />
           </SwiperSlide>

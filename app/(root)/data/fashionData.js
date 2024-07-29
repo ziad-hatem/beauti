@@ -5080,3 +5080,475 @@ export const phonesSliderdata = [
     title: "ساعات ذكية",
   },
 ];
+
+import brandImg1 from "/public/imgs/phones/brands/img1.png";
+import brandImg2 from "/public/imgs/phones/brands/img2.png";
+import brandImg3 from "/public/imgs/phones/brands/img3.png";
+import brandImg4 from "/public/imgs/phones/brands/img4.png";
+
+export const famousBranding = [
+  {
+    img: brandImg1,
+  },
+  {
+    img: brandImg2,
+  },
+  {
+    img: brandImg3,
+  },
+  {
+    img: brandImg4,
+  },
+];
+
+import latestPhoneImg1 from "/public/imgs/phones/latestphones/img1.png";
+import latestPhoneImg2 from "/public/imgs/phones/latestphones/img2.png";
+import latestPhoneImg3 from "/public/imgs/phones/latestphones/img3.png";
+import latestPhoneImg4 from "/public/imgs/phones/latestphones/img4.png";
+import latestPhoneImg5 from "/public/imgs/phones/latestphones/img5.png";
+import latestPhoneImg6 from "/public/imgs/phones/latestphones/img6.png";
+import latestPhoneImg7 from "/public/imgs/phones/latestphones/img7.png";
+import latestPhoneImg8 from "/public/imgs/phones/latestphones/img8.png";
+
+export const latestPhones = [
+  {
+    img: latestPhoneImg1,
+    name: "أبل أيفون ١٥",
+  },
+  {
+    img: latestPhoneImg2,
+    name: "سامسونج أس ٢٤",
+  },
+  {
+    img: latestPhoneImg3,
+    name: "أونر أكس ٩ أي",
+  },
+  {
+    img: latestPhoneImg4,
+    name: "أوبو رينو ١١",
+  },
+  {
+    img: latestPhoneImg5,
+    name: "بوكو ريكو سي ٦٥",
+  },
+  {
+    img: latestPhoneImg6,
+    name: "ريدمي نوت ١٢",
+  },
+  {
+    img: latestPhoneImg7,
+    name: "موتورولا جي ٤٠",
+  },
+  {
+    img: latestPhoneImg8,
+    name: "وان بلس نورد",
+  },
+];
+
+import shopasPriceImg1 from "/public/imgs/phones/shopasPrice/img1.png";
+import shopasPriceImg2 from "/public/imgs/phones/shopasPrice/img2.png";
+import shopasPriceImg3 from "/public/imgs/phones/shopasPrice/img3.png";
+import shopasPriceImg4 from "/public/imgs/phones/shopasPrice/img4.png";
+import shopasPriceImg5 from "/public/imgs/phones/shopasPrice/img5.png";
+import shopasPriceImg6 from "/public/imgs/phones/shopasPrice/img6.png";
+
+export const shopasPricePhones = [
+  {
+    img: shopasPriceImg1,
+  },
+  {
+    img: shopasPriceImg2,
+  },
+  {
+    img: shopasPriceImg3,
+  },
+  {
+    img: shopasPriceImg4,
+  },
+  {
+    img: shopasPriceImg5,
+  },
+  {
+    img: shopasPriceImg6,
+  },
+];
+
+import phoneShopBrandImg1 from "/public/imgs/phones/phones/img1.png";
+import phoneShopBrandImg2 from "/public/imgs/phones/phones/img2.png";
+import phoneShopBrandImg3 from "/public/imgs/phones/phones/img3.png";
+import phoneShopBrandImg4 from "/public/imgs/phones/phones/img4.png";
+import phoneBrandImg1 from "/public/imgs/phones/phones/phoneBrands/img1.png";
+import phoneBrandImg2 from "/public/imgs/phones/phones/phoneBrands/img2.png";
+import phoneBrandImg3 from "/public/imgs/phones/phones/phoneBrands/img3.png";
+import phoneBrandImg4 from "/public/imgs/phones/phones/phoneBrands/img4.png";
+
+export const shopasBrandPhones = [
+  {
+    img: phoneShopBrandImg1,
+    brand: phoneBrandImg1,
+  },
+  {
+    img: phoneShopBrandImg2,
+    brand: phoneBrandImg2,
+  },
+  {
+    img: phoneShopBrandImg3,
+    brand: phoneBrandImg3,
+  },
+  {
+    img: phoneShopBrandImg4,
+    brand: phoneBrandImg4,
+  },
+];
+
+import techBrandImg1 from "../../../public/imgs/phones/techbrands/img1.png";
+import techBrandImg2 from "../../../public/imgs/phones/techbrands/img2.png";
+import techBrandImg3 from "../../../public/imgs/phones/techbrands/img3.png";
+import techBrandImg4 from "../../../public/imgs/phones/techbrands/img4.png";
+import techBrandImg5 from "../../../public/imgs/phones/techbrands/img5.png";
+import techBrandImg6 from "../../../public/imgs/phones/techbrands/img6.png";
+
+export const TechBrands = [
+  {
+    img: techBrandImg1,
+  },
+  {
+    img: techBrandImg2,
+  },
+  {
+    img: techBrandImg3,
+  },
+  {
+    img: techBrandImg4,
+  },
+  {
+    img: techBrandImg5,
+  },
+  {
+    img: techBrandImg6,
+  },
+  {
+    img: techBrandImg1,
+  },
+  {
+    img: techBrandImg2,
+  },
+  {
+    img: techBrandImg3,
+  },
+  {
+    img: techBrandImg4,
+  },
+  {
+    img: techBrandImg5,
+  },
+  {
+    img: techBrandImg6,
+  },
+];
+
+import mobileAccessoryImg1 from "../../../public/imgs/phones/mobileaccessories/img1.png";
+import mobileAccessoryImg2 from "../../../public/imgs/phones/mobileaccessories/img2.png";
+import mobileAccessoryImg3 from "../../../public/imgs/phones/mobileaccessories/img3.png";
+import mobileAccessoryImg4 from "../../../public/imgs/phones/mobileaccessories/img4.png";
+import mobileAccessoryImg5 from "../../../public/imgs/phones/mobileaccessories/img5.png";
+
+export const Mobileaccessories = [
+  {
+    img: mobileAccessoryImg1,
+    title: "مستلزمات السيارة",
+  },
+  {
+    img: mobileAccessoryImg2,
+    title: "مسكات جوال",
+  },
+  {
+    img: mobileAccessoryImg3,
+    title: "كابلات الجوال",
+  },
+  {
+    img: mobileAccessoryImg4,
+    title: "حافظات الحماية",
+  },
+  {
+    img: mobileAccessoryImg5,
+    title: "شواحن محمولة",
+  },
+];
+
+import phoneFitBudgetImg1 from "../../../public/imgs/phones/phonesfitBudget/img1.png";
+import phoneFitBudgetImg2 from "../../../public/imgs/phones/phonesfitBudget/img2.png";
+import phoneFitBudgetImg3 from "../../../public/imgs/phones/phonesfitBudget/img3.png";
+import phoneFitBudgetImg4 from "../../../public/imgs/phones/phonesfitBudget/img4.png";
+import phoneFitBudgetImg5 from "../../../public/imgs/phones/phonesfitBudget/img5.png";
+import phoneFitBudgetImg6 from "../../../public/imgs/phones/phonesfitBudget/img6.png";
+import phoneFitBudgetImg7 from "../../../public/imgs/phones/phonesfitBudget/img7.png";
+import phoneFitBudgetImg8 from "../../../public/imgs/phones/phonesfitBudget/img8.png";
+
+const phoneFitBudget1 = {
+  name: "Redmi A3",
+  img: phoneFitBudgetImg1,
+  text: "ريدمي A3 (اخضر زيتوني، ذاكرة رام 3 جيجابايت، تخزين 64 جيجا...",
+  price: "292.95",
+  discount: false,
+};
+const phoneFitBudget2 = {
+  name: "Samsung Galaxy M14",
+  img: phoneFitBudgetImg2,
+  text: "ريدمي A3 (اخضر زيتوني، ذاكرة رام 3 جيجابايت، تخزين 64 جيجا...",
+  price: "292.95",
+  discount: true,
+};
+const phoneFitBudget3 = {
+  name: "Tecno Pop 8",
+  img: phoneFitBudgetImg3,
+  text: "ريدمي A3 (اخضر زيتوني، ذاكرة رام 3 جيجابايت، تخزين 64 جيجا...",
+  price: "292.95",
+  discount: false,
+};
+const phoneFitBudget4 = {
+  name: "Redmi 13 C",
+  img: phoneFitBudgetImg4,
+  text: "ريدمي A3 (اخضر زيتوني، ذاكرة رام 3 جيجابايت، تخزين 64 جيجا...",
+  price: "292.95",
+  discount: false,
+};
+const phoneFitBudget5 = {
+  name: "POCO C65",
+  img: phoneFitBudgetImg5,
+  text: "ريدمي A3 (اخضر زيتوني، ذاكرة رام 3 جيجابايت، تخزين 64 جيجا...",
+  price: "292.95",
+  discount: false,
+};
+const phoneFitBudget6 = {
+  name: "Lava Storm 5G",
+  img: phoneFitBudgetImg6,
+  text: "ريدمي A3 (اخضر زيتوني، ذاكرة رام 3 جيجابايت، تخزين 64 جيجا...",
+  price: "292.95",
+  discount: false,
+};
+const phoneFitBudget7 = {
+  name: "Realme Narzo 50i",
+  img: phoneFitBudgetImg7,
+  text: "ريدمي A3 (اخضر زيتوني، ذاكرة رام 3 جيجابايت، تخزين 64 جيجا...",
+  price: "292.95",
+  discount: false,
+};
+const phoneFitBudget8 = {
+  name: "Realme NARZO N65",
+  img: phoneFitBudgetImg8,
+  text: "ريدمي A3 (اخضر زيتوني، ذاكرة رام 3 جيجابايت، تخزين 64 جيجا...",
+  price: "292.95",
+  discount: true,
+};
+
+export const phonesFitBudget = [
+  phoneFitBudget1,
+  phoneFitBudget2,
+  phoneFitBudget3,
+  phoneFitBudget4,
+  phoneFitBudget5,
+  phoneFitBudget6,
+  phoneFitBudget7,
+  phoneFitBudget8,
+];
+
+import beautyPhonesImg1 from "../../../public/imgs/phones/beautyPhones/img1.png";
+import beautyPhonesImg2 from "../../../public/imgs/phones/beautyPhones/img2.png";
+import beautyPhonesImg3 from "../../../public/imgs/phones/beautyPhones/img3.png";
+import beautyPhonesImg4 from "../../../public/imgs/phones/beautyPhones/img4.png";
+import beautyPhonesImg5 from "../../../public/imgs/phones/beautyPhones/img5.png";
+import beautyPhonesImg6 from "../../../public/imgs/phones/beautyPhones/img6.png";
+
+const beautyPhonesPhone1 = {
+  name: "Iphone 15 Pro Max",
+  img: beautyPhonesImg1,
+  text: "بسعة 256 جيجابايت ",
+  moreText: "شريحة A17 PRO",
+  price: 6778.99,
+  discount: true,
+  discountValue: 10,
+};
+const beautyPhonesPhone2 = {
+  name: "OnePlus Open",
+  img: beautyPhonesImg2,
+  text: "بسعة 256 جيجابايت ",
+  moreText: "شريحة A17 PRO",
+  price: 6778.99,
+  discount: false,
+  discountValue: 0,
+};
+const beautyPhonesPhone3 = {
+  name: "Samsung Galaxy S24",
+  img: beautyPhonesImg3,
+  text: "بسعة 256 جيجابايت ",
+  moreText: "شريحة A17 PRO",
+  price: 6778.99,
+  discount: false,
+  discountValue: 0,
+};
+const beautyPhonesPhone4 = {
+  name: "Motorola Moto G 5G",
+  img: beautyPhonesImg4,
+  text: "بسعة 256 جيجابايت ",
+  moreText: "شريحة A17 PRO",
+  price: 6778.99,
+  discount: false,
+  discountValue: 0,
+};
+const beautyPhonesPhone5 = {
+  name: "OPPO Find N3 Flip",
+  img: beautyPhonesImg5,
+  text: "بسعة 256 جيجابايت ",
+  moreText: "شريحة A17 PRO",
+  price: 6778.99,
+  discount: false,
+  discountValue: 0,
+};
+const beautyPhonesPhone6 = {
+  name: "Pixel 8 Pro 5G",
+  img: beautyPhonesImg6,
+  text: "بسعة 256 جيجابايت ",
+  moreText: "شريحة A17 PRO",
+  price: 6778.99,
+  discount: true,
+  discountValue: 10,
+};
+
+export const beautyPhones = [
+  beautyPhonesPhone1,
+  beautyPhonesPhone2,
+  beautyPhonesPhone3,
+  beautyPhonesPhone4,
+  beautyPhonesPhone5,
+  beautyPhonesPhone6,
+];
+
+import powerBankImg1 from "../../../public/imgs/phones/powerBank/img1.png";
+import powerBankImg2 from "../../../public/imgs/phones/powerBank/img2.png";
+import powerBankImg3 from "../../../public/imgs/phones/powerBank/img3.png";
+import powerBankImg4 from "../../../public/imgs/phones/powerBank/img4.png";
+
+export const powerbankData = [
+  {
+    img: powerBankImg1,
+    name: "سعة كبيرة",
+  },
+  {
+    img: powerBankImg2,
+    name: "شحن سريع",
+  },
+  {
+    img: powerBankImg3,
+    name: "تصميم انسيابي",
+  },
+  {
+    img: powerBankImg4,
+    name: "شاحن لاسلكي",
+  },
+];
+
+import headPhonesImg1 from "../../../public/imgs/phones/headPhones/img1.png";
+import headPhonesImg2 from "../../../public/imgs/phones/headPhones/img2.png";
+import headPhonesImg3 from "../../../public/imgs/phones/headPhones/img3.png";
+import headPhonesImg4 from "../../../public/imgs/phones/headPhones/img4.png";
+import headPhonesImg5 from "../../../public/imgs/phones/headPhones/img5.png";
+import headPhonesImg6 from "../../../public/imgs/phones/headPhones/img6.png";
+import headPhonesImg7 from "../../../public/imgs/phones/headPhones/img7.png";
+import headPhonesImg8 from "../../../public/imgs/phones/headPhones/img8.png";
+
+export const headPhonesData = [
+  {
+    img: headPhonesImg1,
+    name: "سماعات الرأس",
+  },
+  {
+    img: headPhonesImg2,
+    name: "سماعات خلف الرقبة",
+  },
+  {
+    img: headPhonesImg3,
+    name: "سماعات لاسلكية",
+  },
+  {
+    img: headPhonesImg4,
+    name: "سماعات سلكية",
+  },
+  {
+    img: headPhonesImg5,
+    name: "سماعات فاخرة",
+  },
+  {
+    img: headPhonesImg6,
+    name: "سبيكرات لاسلكية",
+  },
+  {
+    img: headPhonesImg7,
+    name: "سماعات داخل الأذن",
+  },
+  {
+    img: headPhonesImg8,
+    name: "سماعات توفيرية",
+  },
+];
+
+import InternationalEarsBrandImg1 from "../../../public/imgs/phones/InternationalEarsBrand/img1.png";
+import InternationalEarsBrandImg2 from "../../../public/imgs/phones/InternationalEarsBrand/img2.png";
+import InternationalEarsBrandImg3 from "../../../public/imgs/phones/InternationalEarsBrand/img3.png";
+import InternationalEarsBrandImg4 from "../../../public/imgs/phones/InternationalEarsBrand/img4.png";
+import InternationalEarsBrandImg5 from "../../../public/imgs/phones/InternationalEarsBrand/img5.png";
+import InternationalEarsBrandImg6 from "../../../public/imgs/phones/InternationalEarsBrand/img6.png";
+import InternationalEarsBrandImg7 from "../../../public/imgs/phones/InternationalEarsBrand/img7.png";
+import InternationalEarsBrandImg8 from "../../../public/imgs/phones/InternationalEarsBrand/img8.png";
+
+import InternationalEarsBrandEarbudsImg1 from "../../../public/imgs/phones/InternationalEarsBrand/earbuds/img1.png";
+import InternationalEarsBrandEarbudsImg2 from "../../../public/imgs/phones/InternationalEarsBrand/earbuds/img2.png";
+import InternationalEarsBrandEarbudsImg3 from "../../../public/imgs/phones/InternationalEarsBrand/earbuds/img3.png";
+import InternationalEarsBrandEarbudsImg4 from "../../../public/imgs/phones/InternationalEarsBrand/earbuds/img4.png";
+import InternationalEarsBrandEarbudsImg5 from "../../../public/imgs/phones/InternationalEarsBrand/earbuds/img5.png";
+import InternationalEarsBrandEarbudsImg6 from "../../../public/imgs/phones/InternationalEarsBrand/earbuds/img6.png";
+import InternationalEarsBrandEarbudsImg7 from "../../../public/imgs/phones/InternationalEarsBrand/earbuds/img7.png";
+import InternationalEarsBrandEarbudsImg8 from "../../../public/imgs/phones/InternationalEarsBrand/earbuds/img8.png";
+
+export const InternationalEarsBrandData = [
+  {
+    img: InternationalEarsBrandImg1,
+    brandImg: InternationalEarsBrandEarbudsImg1,
+    name: "سامسونغ",
+  },
+  {
+    img: InternationalEarsBrandImg2,
+    brandImg: InternationalEarsBrandEarbudsImg2,
+    name: "سوني",
+  },
+  {
+    img: InternationalEarsBrandImg3,
+    brandImg: InternationalEarsBrandEarbudsImg3,
+    name: "جوجل بيكسل",
+  },
+  {
+    img: InternationalEarsBrandImg4,
+    brandImg: InternationalEarsBrandEarbudsImg4,
+    name: "أمازون أيكو",
+  },
+  {
+    img: InternationalEarsBrandImg5,
+    brandImg: InternationalEarsBrandEarbudsImg5,
+    name: "جي بي أل",
+  },
+  {
+    img: InternationalEarsBrandImg6,
+    brandImg: InternationalEarsBrandEarbudsImg6,
+    name: "بووس",
+  },
+  {
+    img: InternationalEarsBrandImg7,
+    brandImg: InternationalEarsBrandEarbudsImg7,
+    name: "بيتس",
+  },
+  {
+    img: InternationalEarsBrandImg8,
+    brandImg: InternationalEarsBrandEarbudsImg8,
+    name: "أنكر",
+  },
+];
