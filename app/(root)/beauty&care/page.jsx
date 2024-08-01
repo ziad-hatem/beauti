@@ -49,8 +49,10 @@ import {
   girlJewellery,
   hairCut,
   kidsBanner,
+  latestMakeupGifts,
   latestPhones,
   makeUp,
+  makeUpBrand,
   MobilekidsBanner,
   mostSelledVitaminsProducts,
   TechBrands,
@@ -101,17 +103,16 @@ export default function beautyandCare() {
             mobileBanners={MobilekidsBanner}
             swiperClass={"top-banner"}
           />
-          <section className="my-8 md:my-10">
+          <section className="mt-8 md:mt-10">
             <FoodDoubleGallary
               hideButtons={false}
               flatButtons={true}
               smallButtons={true}
-              paddingTop={10}
               imgClassName="!top-[initial] !bottom-0 lg:!w-full !absolute"
               products={beautyandCareData}
             />
           </section>
-          <section className="mt-10 flex w-full flex-col max-md:mt-8 md:flex-row xl:max-h-[350px]">
+          <section className="mt-6 flex w-full flex-col max-md:mt-4 md:flex-row xl:max-h-[350px]">
             <div className="section-title !mx-3 !mb-0 !mt-0 !flex !items-center !justify-center bg-[#FF9C9E] !px-[13px] !py-[10px] md:!hidden">
               <h2 className="text-[16px] font-[500] text-white">
                 أحدث المنتجات الملابس الرجالية
@@ -126,7 +127,7 @@ export default function beautyandCare() {
             </div>
             <div className="rightSide mr-[5px] flex !h-auto w-full flex-1 flex-col !justify-center overflow-hidden lg:h-fit">
               <div className="section-title !my-0 !mb-[17px] !hidden !items-center !py-0 !pl-0 !pr-4 md:!flex">
-                <h2 className=" text-[19px] font-[500] text-[#383838]">
+                <h2 className="text-[16px] font-[500] text-[#383838] lg:text-[19px]">
                   عروض بيوتي على مستحضرات التجميل و العناية
                 </h2>
                 <div className="displayAll !bg-[#FF9C9E] !text-white">
@@ -146,7 +147,7 @@ export default function beautyandCare() {
               عرض الكل <span className="font-[400]">»</span>
             </Link>
           </section>
-          <section className="round CardsSlider-p !mt-8 md:!mt-10">
+          <section className="round CardsSlider-p !mt-8 md:!mt-[20px]">
             <div className="section-title !m-0 max-md:flex max-md:h-[35px] max-md:items-center max-md:!bg-[#FAFAFA] md:!pb-[10px] md:!pt-[5px]">
               <h2>أقل من ٢٥ ريال</h2>
               <div className="displayAll !bg-[#383838] !text-white">
@@ -157,7 +158,7 @@ export default function beautyandCare() {
           </section>
           <section className="md:mb-10">
             <SectionTitle name={"فئات مرغوبة"} className="md:!mt-[20px]" />
-            <div className="mt-5 flex flex-row flex-wrap items-center justify-around gap-3 max-md:mx-[13px]">
+            <div className="flex flex-row flex-wrap items-center justify-around gap-3 max-md:mx-[13px] max-md:gap-[29px]">
               {data.map((e, i) => {
                 return (
                   <Link
@@ -179,7 +180,7 @@ export default function beautyandCare() {
                     </p>
                     <p
                       href={"/"}
-                      className="mt-2 h-[20px] text-center text-[12px] group-hover:text-[13px] group-hover:font-[700] max-md:mb-[29px] md:text-start xl:text-[14px]"
+                      className="mt-2 h-[20px] text-center text-[12px] group-hover:text-[13px] group-hover:font-[700] md:text-start xl:text-[14px]"
                     >
                       تسوق الآن »
                     </p>
@@ -208,7 +209,7 @@ export default function beautyandCare() {
             </div>
             <div className="rightSide mr-[5px] flex !h-auto w-full flex-1 flex-col !justify-center overflow-hidden lg:h-fit">
               <div className="section-title !my-0 !mb-[17px] !hidden !items-center !py-0 !pl-0 !pr-4 md:!flex">
-                <h2 className=" text-[19px] font-[500] text-[#383838]">
+                <h2 className="text-[16px] font-[500] text-[#383838] lg:text-[19px]">
                   الأعلى تقييماً مستحضرات التجميل و العناية
                 </h2>
                 <div className="displayAll !bg-[#FF9C9E] !text-white">
@@ -296,6 +297,7 @@ export default function beautyandCare() {
             <BeautyOffersgirls
               products={beautyOffersCare}
               bg=""
+              hover={"#EBEBEB"}
               offerbgColor="#FF9C9E"
               offerTextColor="#FFFFFF"
               hideButtons={true}
@@ -319,7 +321,7 @@ export default function beautyandCare() {
               className="mx-auto h-full w-[calc(50%_-_6px)] max-md:w-[calc(100%_-_26px)]"
             />
           </section>
-          <section className="round CardsSlider-p !mt-8 md:!mt-10">
+          <section className="round CardsSlider-p !mt-6 md:!mt-[30px]">
             <div className="section-title !m-0 max-md:flex max-md:h-[35px] max-md:items-center max-md:!bg-[#FAFAFA] md:!pb-[10px] md:!pt-[5px]">
               <h2>أقل من ٢٥ ريال</h2>
               <div className="displayAll !bg-[#383838] !text-white">
@@ -339,7 +341,7 @@ export default function beautyandCare() {
               swiperClass={"slim-slider !mb-0 !mt-0"}
             />
           </section>
-          <section className="offers">
+          <section className="offers !mt-8 md:!mt-10">
             <div className="section-title-offers !bg-[#FFF] font-[400] !text-[#383838]">
               <h2 className="!text-[#383838]">
                 عروض بيوتى |{" "}
@@ -370,7 +372,7 @@ export default function beautyandCare() {
             </div>
             <div className="rightSide mr-[5px] flex !h-auto w-full flex-1 flex-col !justify-center overflow-hidden lg:h-fit">
               <div className="section-title !my-0 !mb-[17px] !hidden !items-center !py-0 !pl-0 !pr-4 md:!flex">
-                <h2 className=" text-[19px] font-[500] text-[#383838]">
+                <h2 className="text-[16px] font-[500] text-[#383838] lg:text-[19px]">
                   أحدث المنتجات مستحضرات التجميل و العناية
                 </h2>
                 <div className="displayAll !bg-[#FF9C9E] !text-white">
@@ -392,19 +394,26 @@ export default function beautyandCare() {
           </section>
           <section>
             <SectionTitle name={"كل ما يحتاجه الشعر"} />
-            <div className="flex items-center gap-[11.67px] max-md:flex-col">
+            <div className="flex h-fit items-center gap-[11.67px] max-md:flex-col">
               {hairCut.map((e, i) => {
                 return (
                   <div
                     key={i}
-                    className="aspect-square h-auto w-[calc(100vw_-_26px)] max-w-[400px] md:h-[234px] md:w-[234px]"
+                    className="group aspect-square h-auto w-[calc(100vw_-_26px)] max-w-[400px] cursor-pointer md:max-h-[234px] md:max-w-[234px]"
                   >
-                    <Image
-                      src={e.img}
-                      unoptimized
-                      loading="lazy"
-                      className="h-auto"
-                    />
+                    <div className="relative">
+                      <Image
+                        src={e.img}
+                        unoptimized
+                        loading="lazy"
+                        className="h-auto"
+                      />
+                      <div className="absolute bottom-[22px] left-1/2 flex h-[44px] w-[60%] -translate-x-1/2 transform items-center justify-center bg-[#FFF] bg-opacity-90 md:bottom-3 md:w-[80%]">
+                        <h2 className="text-[12px] font-[400] text-[#383838] group-hover:font-[500] lg:text-[16px]">
+                          {e.title}
+                        </h2>
+                      </div>
+                    </div>
                   </div>
                 );
               })}
@@ -548,7 +557,7 @@ export default function beautyandCare() {
             />
           </section>
           <section>
-            <div className="title mb-14 mt-8 flex w-full justify-center md:mt-10">
+            <div className="title mb-12 mt-8 flex w-full justify-center max-md:mb-16 md:mt-10">
               <h1 className="text-[15px] font-[400] md:text-[22px]">
                 منتجات الجمال الفاخرة
               </h1>
@@ -556,12 +565,12 @@ export default function beautyandCare() {
             <BeautyProductMakeup data={BeautyProducts} />
           </section>
           <section className="mt-4 md:mt-6">
-            <BrandsSwiper2 data={TechBrands} />
+            <BrandsSwiper2 data={makeUpBrand} />
           </section>
           <section className="mt-10 flex w-full flex-col max-md:mt-8 md:flex-row xl:max-h-[350px]">
             <div className="section-title !mx-3 !mb-0 !mt-0 !flex !items-center !justify-center bg-[#9CBBDD] !px-[13px] !py-[10px] md:!hidden">
               <h2 className="text-[16px] font-[500] text-white">
-                عروض بيوتي على منتجات الجيم و الرياضة
+                الأكثر مبيعاً المنتجات الفاخرة
               </h2>
             </div>
             <div className="leftSide w-auto flex-none md:ml-[19px] lg:w-[213px] xl:w-fit">
@@ -573,8 +582,8 @@ export default function beautyandCare() {
             </div>
             <div className="rightSide mr-[5px] flex !h-auto w-full flex-1 flex-col !justify-center overflow-hidden lg:h-fit">
               <div className="section-title !my-0 !mb-[17px] !hidden !items-center !py-0 !pl-0 !pr-4 md:!flex">
-                <h2 className=" text-[19px] font-[500] text-[#383838]">
-                  الأكثر مبيعاً المنتجات الفاخرة
+                <h2 className="text-[16px] font-[500] text-[#383838] lg:text-[19px]">
+                  عروض بيوتي على منتجات الجيم و الرياضة
                 </h2>
                 <div className="displayAll !bg-[#FF9C9E] !text-white">
                   <a href="/">عرض الكل</a>
@@ -599,7 +608,7 @@ export default function beautyandCare() {
                 هدايا مستحضرات العناية و التجميل{" "}
               </h1>
             </div>
-            <EntertainmentsSingle data={latestPhones} />
+            <EntertainmentsSingle data={latestMakeupGifts} />
           </section>
           <section className="round CardsSlider-p !mt-8 md:!mt-[25px]">
             <div className="section-title !m-0 max-md:flex max-md:h-[35px] max-md:items-center max-md:!bg-[#FAFAFA] md:!pb-[10px] md:!pt-[5px]">

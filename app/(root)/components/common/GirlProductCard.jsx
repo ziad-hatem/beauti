@@ -1,7 +1,14 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-const GirlProductCard = ({ product, offerbgColor, offerTextColor, bg }) => {
+const GirlProductCard = ({
+  product,
+  offerbgColor,
+  offerTextColor,
+  bg,
+  bgHover,
+}) => {
+  const [hover, setHover] = useState(false);
   const [mobile, setMobileWidth] = useState(false);
 
   useEffect(() => {
@@ -21,7 +28,12 @@ const GirlProductCard = ({ product, offerbgColor, offerTextColor, bg }) => {
 
   return (
     <div
-      className={`flex !h-[71.9vw] !max-h-[294px] !w-[36.25vw] !max-w-[148px] flex-col items-center justify-center ${bg}`}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      className={`flex !h-[71.9vw] !max-h-[249px] !w-[36.25vw] !max-w-[148px] flex-col items-center justify-center`}
+      style={{
+        backgroundColor: bgHover ? (hover ? bgHover : bg) : bg,
+      }}
     >
       <Image
         src={product.img}
@@ -29,7 +41,7 @@ const GirlProductCard = ({ product, offerbgColor, offerTextColor, bg }) => {
         unoptimized
         height={100}
         loading="lazy"
-        className="!h-[190px] !w-full object-contain"
+        className="!h-[145px] !w-full object-contain mix-blend-multiply"
       />
       <div
         className={`title flex h-[44px] w-full items-center justify-center text-[16px] font-[400] md:text-[20px]`}

@@ -5571,15 +5571,19 @@ import hairCutImg4 from "../../../public/imgs/beauty&care/haircut/img4.png";
 export const hairCut = [
   {
     img: hairCutImg1,
+    title: "شامبو و بلسم",
   },
   {
     img: hairCutImg2,
+    title: "أدوات تصفيف الشعر",
   },
   {
     img: hairCutImg3,
+    title: "صبغات الشعر",
   },
   {
     img: hairCutImg4,
+    title: "علاجات الشعر",
   },
 ];
 
@@ -5757,5 +5761,90 @@ export const BeautyProducts = [
     img: beautyProductImg4,
     logo: beautyProductLogo4,
     bg: "#F9F4EB",
+  },
+];
+
+import makeUpBrandImg1 from "../../../public/imgs/beauty&care/makeUpBrands/logo1.png";
+import makeUpBrandImg2 from "../../../public/imgs/beauty&care/makeUpBrands/logo2.png";
+import makeUpBrandImg3 from "../../../public/imgs/beauty&care/makeUpBrands/logo3.png";
+import makeUpBrandImg4 from "../../../public/imgs/beauty&care/makeUpBrands/logo4.png";
+import makeUpBrandImg5 from "../../../public/imgs/beauty&care/makeUpBrands/logo5.png";
+import makeUpBrandImg6 from "../../../public/imgs/beauty&care/makeUpBrands/logo6.png";
+
+export const makeUpBrand = [
+  {
+    img: makeUpBrandImg1,
+  },
+  {
+    img: makeUpBrandImg2,
+  },
+  {
+    img: makeUpBrandImg3,
+  },
+  {
+    img: makeUpBrandImg4,
+  },
+  {
+    img: makeUpBrandImg5,
+  },
+  {
+    img: makeUpBrandImg6,
+  },
+  {
+    img: makeUpBrandImg1,
+  },
+  {
+    img: makeUpBrandImg2,
+  },
+  {
+    img: makeUpBrandImg3,
+  },
+  {
+    img: makeUpBrandImg4,
+  },
+  {
+    img: makeUpBrandImg5,
+  },
+  {
+    img: makeUpBrandImg6,
+  },
+];
+
+import latestMakeupGiftImg1 from "../../../public/imgs/beauty&care/latestMakeupGifts/img1.png";
+import latestMakeupGiftImg2 from "../../../public/imgs/beauty&care/latestMakeupGifts/img2.png";
+import latestMakeupGiftImg3 from "../../../public/imgs/beauty&care/latestMakeupGifts/img3.png";
+
+export const latestMakeupGifts = [
+  {
+    img: latestMakeupGiftImg1,
+    name: "مجموعات الاستحمام",
+  },
+  {
+    img: latestMakeupGiftImg2,
+    name: "هدايا المكياج",
+  },
+  {
+    img: latestMakeupGiftImg3,
+    name: "هدايا العناية بالبشرة",
+  },
+  {
+    img: latestMakeupGiftImg3,
+    name: "هدايا العناية بالشعر",
+  },
+  {
+    img: latestMakeupGiftImg1,
+    name: "مجموعات الاستحمام",
+  },
+  {
+    img: latestMakeupGiftImg2,
+    name: "هدايا المكياج",
+  },
+  {
+    img: latestMakeupGiftImg3,
+    name: "هدايا العناية بالبشرة",
+  },
+  {
+    img: latestMakeupGiftImg3,
+    name: "هدايا العناية بالشعر",
   },
 ];

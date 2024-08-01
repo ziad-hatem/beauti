@@ -29,7 +29,7 @@ const BigProductCard = ({ product, multiSubSection, className }) => {
       {/* title */}
 
       <div className="max-md:flex-start flex flex-col max-xl:justify-center md:!items-start lg:!items-center">
-        <h3 className="mt-2 w-[208px] overflow-hidden text-ellipsis whitespace-nowrap text-[calc(10px_+_0.6vw)] font-[700] text-black md:w-[208px] md:text-center md:text-[17px]">
+        <h3 className="mt-2 w-fit overflow-hidden text-ellipsis whitespace-nowrap text-[calc(10px_+_0.6vw)] font-[700] text-black md:w-[208px] md:text-center md:text-[17px]">
           {product.title}
         </h3>
         <h3 className="w-full text-[calc(8px_+_0.6vw)] text-[#363636] md:text-[15px]">

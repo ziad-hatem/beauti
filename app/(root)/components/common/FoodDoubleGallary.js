@@ -71,12 +71,6 @@ const FoodDoubleGallary = ({
       //   // pauseOnMouseEnter: true
       // }}
       className={`mySwiper-all douple-products-swiper ${smallButtons ? "products-swiper" : ""} ${flatButtons ? "womenWears" : ""} ${hideButtons ? "hideButtons" : ""} !mt-0 !h-full max-md:!mr-[5px]`}
-      style={{
-        paddingTop: `${MobilepaddingTop}rem`,
-        [`@media (min-width: 768px)`]: {
-          paddingTop: `${paddingTop}rem`,
-        },
-      }}
     >
       {doubleProducts.map((product, i) => (
         <SwiperSlide key={i + "product"} className="!w-fit md:my-1.5">

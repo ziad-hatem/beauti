@@ -27,7 +27,7 @@ const Product = ({ product }) => {
 
 const Right = ({ mainImg }) => {
   return (
-    <div className="flex h-fit w-[283px] flex-none flex-col gap-4">
+    <div className="mx-auto flex h-fit w-[283px] flex-none flex-col gap-4 max-md:w-[calc(100vw_-_26px)]">
       <div className="aspect-square w-full">
         <Image
           src={mainImg}
@@ -40,7 +40,7 @@ const Right = ({ mainImg }) => {
       </div>
       <Link
         href={""}
-        className="min-h-[20px] cursor-pointer text-[22px] font-[400] hover:text-[21px] hover:font-[700]"
+        className="hidden min-h-[20px] cursor-pointer text-[22px] font-[400] hover:text-[21px] hover:font-[700] md:block"
       >
         عرض الكل »
       </Link>
@@ -50,31 +50,39 @@ const Right = ({ mainImg }) => {
 
 const Left = ({ data }) => {
   return (
-    <div className="h-[283px] w-full flex-1 overflow-hidden bg-[#FAFAFA] py-[20px]">
-      <Swiper
-        slidesPerView="auto"
-        centeredSlides={false}
-        spaceBetween={22}
-        navigation={true}
-        loop={false}
-        modules={[Navigation, Autoplay]}
-        className={`mySwiper-all products-swiper !pr-[30px]`}
+    <>
+      <div className="h-[283px] w-full flex-1 overflow-hidden bg-[#FAFAFA] py-[20px]">
+        <Swiper
+          slidesPerView="auto"
+          centeredSlides={false}
+          spaceBetween={22}
+          navigation={true}
+          loop={false}
+          modules={[Navigation, Autoplay]}
+          className={`mySwiper-all products-swiper pr-[13px] md:!pr-[30px]`}
+        >
+          {data.map((product, index) => {
+            return (
+              <SwiperSlide className="!w-fit" key={index}>
+                <Product product={product} />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
+      <Link
+        href={""}
+        className="mt-[-11px] block cursor-pointer text-[12px] font-[500] md:hidden"
       >
-        {data.map((product, index) => {
-          return (
-            <SwiperSlide className="!w-fit" key={index}>
-              <Product product={product} />
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-    </div>
+        عرض الكل <span className="font-[400]">»</span>
+      </Link>
+    </>
   );
 };
 
 const Careandbeauty = ({ mainImg, data }) => {
   return (
-    <div className="flex gap-[20px]">
+    <div className="flex gap-[13px] max-md:flex-col md:gap-[20px]">
       <Right mainImg={mainImg} />
       <Left data={data} />
     </div>

@@ -50,14 +50,16 @@ const ShopasBrand = ({
 }) => {
   return (
     <div className="flex h-fit flex-col items-center justify-center gap-8 lg:flex-row">
-      <Image
-        src={mainImg ? mainImg : data.mainImg}
-        width={100}
-        loading="lazy"
-        height={100}
-        unoptimized
-        className="mr-[12px] !h-[346px] w-auto max-sm:!w-full max-sm:bg-[#F5F5F5] sm:!h-[20%] lg:mr-[27px] xl:w-[250px]"
-      />
+      <div className="max-sm:bg-[#F5F5F5]">
+        <Image
+          src={mainImg ? mainImg : data.mainImg}
+          width={100}
+          loading="lazy"
+          height={100}
+          unoptimized
+          className="mr-[12px] !h-[346px] w-auto !mix-blend-multiply max-sm:!w-full  sm:!h-[20%] lg:mr-[27px] xl:w-[250px]"
+        />
+      </div>
       <div className="mx-auto mt-auto hidden w-fit gap-[8px] lg:flex">
         {brands?.map((e, i) => {
           if (i % 2 !== 0) return null;

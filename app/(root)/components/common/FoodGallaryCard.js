@@ -22,7 +22,7 @@ const FoodGallaryCard = ({ img, title, imgClassName = "" }) => {
           loading="lazy"
           unoptimized
           alt=""
-          className={`relative top-[-10%] !h-auto !w-[80%] !mix-blend-multiply transition-all duration-500 md:!w-[90%] ${imgClassName}`}
+          className={`relative top-[-10%] !h-auto !w-[100%] !mix-blend-multiply transition-all duration-500 md:!w-[90%] ${imgClassName}`}
         />
       </div>
 

@@ -50,7 +50,15 @@ const MostPopularCareProducts = ({ data }) => {
         navigation={true}
         loop={false}
         modules={[Navigation, Autoplay]}
-        className={`mySwiper-all LittlePagination !justify-around !bg-transparent`}
+        className={`mySwiper-all LittlePagination !justify-around !bg-transparent max-md:!mr-[5px]`}
+        breakpoints={{
+          300: {
+            spaceBetween: 12,
+          },
+          767: {
+            spaceBetween: 22.75,
+          },
+        }}
       >
         {data.map((product, index) => (
           <SwiperSlide className="!w-fit" key={index}>

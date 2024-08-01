@@ -4,7 +4,7 @@ import React from "react";
 const Product = ({ product }) => {
   return (
     <div
-      className="group relative flex aspect-square h-[222px] w-[222px] cursor-pointer items-end justify-center"
+      className="group relative flex aspect-square h-[calc(50vw_-_19px)] cursor-pointer items-end justify-center max-md:w-[calc(50vw_-_19px)] md:h-[222px] md:w-[222px]"
       style={{
         backgroundColor: product.bg,
       }}
@@ -16,7 +16,7 @@ const Product = ({ product }) => {
           height={100}
           unoptimized
           loading="lazy"
-          className="!h-[244px] w-auto mix-blend-multiply"
+          className="!h-[180px] w-auto mix-blend-multiply md:!h-[244px]"
         />
       </div>
       <div className="absolute left-1/2 top-1/2 flex h-[72px] w-full -translate-x-1/2 -translate-y-1/2 transform items-center justify-center bg-white bg-opacity-70">
@@ -33,7 +33,7 @@ const Product = ({ product }) => {
 
 const BeautyProductMakeup = ({ data }) => {
   return (
-    <div className="flex h-fit gap-[27.67px]">
+    <div className="flex h-fit items-center justify-center max-md:flex-wrap max-md:gap-x-[12px] max-md:gap-y-[55px] md:gap-[27.67px]">
       {data.map((product, index) => {
         return <Product product={product} key={index} />;
       })}

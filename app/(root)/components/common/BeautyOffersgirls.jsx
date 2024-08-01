@@ -11,6 +11,7 @@ const BeautyOffersgirls = ({
   offerTextColor = "#000",
   hideButtons = false,
   bg = "#F5F5F5",
+  hover,
 }) => {
   return (
     <div>
@@ -36,6 +37,7 @@ const BeautyOffersgirls = ({
                 bg={bg}
                 offerbgColor={offerbgColor}
                 offerTextColor={offerTextColor}
+                bgHover={hover}
               />
             </SwiperSlide>
           );
