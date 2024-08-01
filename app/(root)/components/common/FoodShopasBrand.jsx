@@ -5,8 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
 const Product = ({ product }) => (
-  <Link href={"/"} className="w-fit">
-    <div className="image flex h-[109px] w-[109px] items-center justify-center rounded-full bg-[#F5F5F5] md:h-[153px] md:w-[153px]">
+  <Link href={"/"} className="group w-fit">
+    <div className="image flex h-[109px] w-[109px] items-center justify-center rounded-full bg-[#F5F5F5] group-hover:bg-[#EAEAEA] md:h-[153px] md:w-[153px]">
       <Image
         src={product.img}
         width={100}

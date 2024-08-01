@@ -37,7 +37,7 @@ const FoodBeverage = ({
                   alt={e.name}
                 />
 
-                <p className="!mx-0 flex justify-center text-[13px] font-[400] md:text-[16px]">
+                <p className="!mx-0 flex justify-center text-[13px] font-[400] group-hover:font-[500] md:text-[16px]">
                   {e.name}
                 </p>
               </Link>

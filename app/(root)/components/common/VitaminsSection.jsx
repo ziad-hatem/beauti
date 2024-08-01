@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
 const Product = ({ product }) => (
-  <Link href={"/"} className="lg:h-[188px]">
+  <Link href={"/"} className="group lg:h-[188px]">
     <div className="image flex h-[109px] w-[109px] items-start justify-center lg:h-[153px] lg:w-[153px]">
       <Image
         src={product.img}
@@ -16,7 +16,7 @@ const Product = ({ product }) => (
         loading="lazy"
       />
     </div>
-    <h1 className="mx-auto mt-[10px] w-fit text-center text-[10px] md:text-[14px]">
+    <h1 className="mx-auto mt-[10px] w-fit text-center text-[10px] group-hover:text-[#F39406] md:text-[14px]">
       {product.name}
     </h1>
   </Link>
