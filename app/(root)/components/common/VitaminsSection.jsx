@@ -5,8 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
 const Product = ({ product }) => (
-  <Link href={"/"} className=" md:h-[188px]">
-    <div className="image flex h-[109px] w-[109px] items-start justify-center md:h-[153px] md:w-[153px]">
+  <Link href={"/"} className="lg:h-[188px]">
+    <div className="image flex h-[109px] w-[109px] items-start justify-center lg:h-[153px] lg:w-[153px]">
       <Image
         src={product.img}
         width={100}
@@ -40,7 +40,7 @@ const VitaminsSection = ({
           height={100}
           unoptimized
           loading="lazy"
-          className="relative hidden h-auto w-[270px] md:bottom-[-20px] md:block md:w-[330px]"
+          className="relative hidden h-auto w-[270px] md:block md:w-[330px] lg:bottom-[-20px]"
         />
         <Image
           src={mobileImg}
@@ -58,7 +58,7 @@ const VitaminsSection = ({
         loop={false}
         centeredSlides={false}
         navigation={true}
-        className="hideButtons !w-full max-md:!mr-2 max-md:mt-4 md:!mr-[-30px] lg:!w-fit"
+        className="hideButtons !w-full max-md:!mr-2 max-md:mt-4 lg:!mr-[-30px] lg:!w-fit"
         breakpoints={{
           767: {
             spaceBetween: 8,

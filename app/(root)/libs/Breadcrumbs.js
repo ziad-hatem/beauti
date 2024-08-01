@@ -38,7 +38,7 @@ const Breadcrumbs = () => {
   return (
     <nav
       aria-label="breadcrumb"
-      className="main-nav container flex items-center gap-[10.12px] !bg-white !p-0 !pr-[10px]"
+      className="main-nav container flex items-center gap-[6px] !bg-white !p-0 !pr-[15px]"
     >
       {breadcrumbs.map((element, index) => {
         return (

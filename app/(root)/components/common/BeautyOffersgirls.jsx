@@ -9,6 +9,8 @@ const BeautyOffersgirls = ({
   products,
   offerbgColor = "#FFF1F1",
   offerTextColor = "#000",
+  hideButtons = false,
+  bg = "#F5F5F5",
 }) => {
   return (
     <div>
@@ -24,13 +26,14 @@ const BeautyOffersgirls = ({
         //   // disableOnInteraction: true,
         //   // pauseOnMouseEnter: true
         // }}
-        className={`mySwiper-all products-swiper BeautyOffersgirls !mt-0 max-md:!mr-[5px]`}
+        className={`mySwiper-all products-swiper ${hideButtons ? "hideButtons" : ""} BeautyOffersgirls !mt-0 max-md:!mr-[5px]`}
       >
         {products.map((e, i) => {
           return (
             <SwiperSlide key={i + "Product"} className="!w-fit">
               <GirlProductCard
                 product={e}
+                bg={bg}
                 offerbgColor={offerbgColor}
                 offerTextColor={offerTextColor}
               />

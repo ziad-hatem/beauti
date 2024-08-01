@@ -19,7 +19,6 @@ const GlassesCard = ({
         productClassName
       }
       onClick={() => {
-        console.log(product.description);
         click(product);
       }}
     >

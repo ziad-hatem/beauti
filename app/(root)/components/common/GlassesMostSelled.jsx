@@ -19,7 +19,7 @@ const GlassesMostSelled = ({
     <div>
       <div className="flex w-full flex-col lg:flex-row 2xl:items-center">
         <div
-          className={`section-title mb-3 !hidden h-[38px] w-full items-center !px-[13px] max-lg:!flex lg:px-10 ${classNames}`}
+          className={`section-title mb-3 !hidden w-full items-center !px-[13px] max-lg:!flex max-sm:h-[38px] md:h-[50px] lg:px-10 ${classNames}`}
         >
           <h2 className="font-medium max-md:!text-[12px]">{text}</h2>
           <div className={`displayAll  ${linkClassName}`}>
@@ -31,7 +31,7 @@ const GlassesMostSelled = ({
         </div>
         <div className="glassesMostSelled flex !h-full flex-col justify-around rounded-[14px] lg:mr-6 lg:w-[calc(100%_-_304px)]">
           <div
-            className={`header my-[38px] mr-7 hidden text-[15px] font-[400] lg:block xl:text-[22px] text-[${titleColor}]`}
+            className={`header my-[38px] mr-7 hidden text-[15px] font-[400] lg:block lg:text-[22px] text-[${titleColor}]`}
           >
             {text}
           </div>

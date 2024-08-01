@@ -48,7 +48,7 @@ export default function PhonesRecommended({ products }) {
             spaceBetween: 35,
           },
         }}
-        className="mySwiper-all products Recommended-slider NextButtonSwiperRight0PX !mt-0"
+        className="mySwiper-all pyroducts Recommended-slider NextButtonSwiperRight0PX !mt-0 !w-fit"
       >
         <div className="products">
           {products.map((product, i) => {

@@ -87,6 +87,7 @@ const KidsJewellery = ({
   jewelleryData,
   sectionClassName = "",
   bgHover,
+  marginRight = 70,
 }) => {
   const [active, setActive] = useState(1);
   const swiperRef = useRef(null);
@@ -99,12 +100,17 @@ const KidsJewellery = ({
   return (
     <div>
       <div className="Jewellery mt-8 h-fit rounded-lg md:mt-10 md:pr-2">
-        <div className="header relative mr-auto flex w-full items-center justify-center max-md:!mb-[16px] md:!mt-3 md:h-[80px] lg:h-[155px] lg:justify-between">
+        <div className="header relative mr-auto flex w-full items-center justify-center max-md:!mb-[16px] md:!mt-3 md:h-[80px] lg:h-[180px] lg:justify-between">
           <Image
             src={HeaderImg}
             width={100}
+            unoptimized
+            loading="lazy"
             height={100}
-            className="relative mr-[70%] hidden h-[120px] w-[147px] mix-blend-multiply lg:block"
+            style={{
+              marginRight: `${marginRight}%`,
+            }}
+            className={`relative hidden h-auto w-[170px] mix-blend-multiply lg:block`}
           />
           <h2 className="text-[15px] font-[400] max-md:text-center md:absolute md:left-[50%] md:!mb-[12px] md:text-[22px]">
             {HeaderText}

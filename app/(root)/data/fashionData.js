@@ -1687,257 +1687,99 @@ import beautyOffersGirlBrand6 from "../../../public/imgs/kidsFashion/BeautyGirls
 
 const beautyOffersGirl1 = {
   img: beautyOffersGirlImg1,
-  brandImg: {
-    img: beautyOffersGirlBrand1,
-    mobile: {
-      width: 106,
-      height: 47,
-    },
-    web: {
-      width: 134,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand1,
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersGirl2 = {
   img: beautyOffersGirlImg2,
-  brandImg: {
-    img: beautyOffersGirlBrand2,
-    mobile: {
-      width: 82.06,
-      height: 34.04,
-    },
-    web: {
-      width: 104.8,
-      height: 42.8,
-    },
-  },
+  brandImg: beautyOffersGirlBrand2,
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersGirl3 = {
   img: beautyOffersGirlImg3,
-  brandImg: {
-    img: beautyOffersGirlBrand3,
-    mobile: {
-      width: 106,
-      height: 47,
-    },
-    web: {
-      width: 134,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand3,
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersGirl4 = {
   img: beautyOffersGirlImg4,
-  brandImg: {
-    img: beautyOffersGirlBrand4,
-    mobile: {
-      width: 88,
-      height: 47,
-    },
-    web: {
-      width: 112,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand4,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersGirl5 = {
   img: beautyOffersGirlImg5,
-  brandImg: {
-    img: beautyOffersGirlBrand5,
-    mobile: {
-      width: 84,
-      height: 47,
-    },
-    web: {
-      width: 107,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand5,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersGirl6 = {
   img: beautyOffersGirlImg6,
-  brandImg: {
-    img: beautyOffersGirlBrand6,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand6,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersBoys1 = {
   img: beautyOffersboysImg1,
-  brandImg: {
-    img: beautyOffersGirlBrand1,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand1,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersBoys2 = {
   img: beautyOffersboysImg2,
-  brandImg: {
-    img: beautyOffersGirlBrand2,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand2,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersBoys3 = {
   img: beautyOffersboysImg3,
-  brandImg: {
-    img: beautyOffersGirlBrand3,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand3,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersBoys4 = {
   img: beautyOffersboysImg4,
-  brandImg: {
-    img: beautyOffersGirlBrand4,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand4,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersBoys5 = {
   img: beautyOffersboysImg5,
-  brandImg: {
-    img: beautyOffersGirlBrand5,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand5,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersBoys6 = {
   img: beautyOffersboysImg6,
-  brandImg: {
-    img: beautyOffersGirlBrand6,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand6,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersWatches6 = {
   img: beautyOffersWatchesImg6,
-  brandImg: {
-    img: beautyOffersGirlBrand6,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand6,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersWatches5 = {
   img: beautyOffersWatchesImg5,
-  brandImg: {
-    img: beautyOffersGirlBrand6,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand6,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersWatches4 = {
   img: beautyOffersWatchesImg4,
-  brandImg: {
-    img: beautyOffersGirlBrand6,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand6,
+
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersWatches3 = {
   img: beautyOffersWatchesImg3,
-  brandImg: {
-    img: beautyOffersGirlBrand6,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand6,
   title: "أكتر من ٤٠٪",
 };
 const beautyOffersWatches2 = {
   img: beautyOffersWatchesImg2,
-  brandImg: {
-    img: beautyOffersGirlBrand6,
-    mobile: {
-      width: 92,
-      height: 47,
-    },
-    web: {
-      width: 118,
-      height: 60,
-    },
-  },
+  brandImg: beautyOffersGirlBrand6,
   title: "أكتر من ٤٠٪",
 };
 
@@ -5550,5 +5392,370 @@ export const InternationalEarsBrandData = [
     img: InternationalEarsBrandImg8,
     brandImg: InternationalEarsBrandEarbudsImg8,
     name: "أنكر",
+  },
+];
+
+import beautyCareImg1 from "../../../public/imgs/beauty&care/img1.png";
+import beautyCareImg2 from "../../../public/imgs/beauty&care/img2.png";
+import beautyCareImg3 from "../../../public/imgs/beauty&care/img3.png";
+import beautyCareImg4 from "../../../public/imgs/beauty&care/img4.png";
+import beautyCareImg5 from "../../../public/imgs/beauty&care/img5.png";
+import beautyCareImg6 from "../../../public/imgs/beauty&care/img6.png";
+import beautyCareImg7 from "../../../public/imgs/beauty&care/img7.png";
+import beautyCareImg8 from "../../../public/imgs/beauty&care/img8.png";
+import beautyCareImg9 from "../../../public/imgs/beauty&care/img9.png";
+import beautyCareImg10 from "../../../public/imgs/beauty&care/img10.png";
+
+export const beautyandCareData = [
+  {
+    name: "المكياج",
+    img: beautyCareImg1,
+    href: "#",
+  },
+  {
+    name: "العناية بالفم",
+    img: beautyCareImg2,
+    href: "#",
+  },
+  {
+    name: "العناية بالوجه",
+    img: beautyCareImg3,
+    href: "#",
+  },
+  {
+    name: "العناية باليد والقدم",
+    img: beautyCareImg4,
+    href: "#",
+  },
+  {
+    name: "العناية بالرجل",
+    img: beautyCareImg5,
+    href: "#",
+  },
+  {
+    name: "العناية بالجسم",
+    img: beautyCareImg6,
+    href: "#",
+  },
+  {
+    name: "العناية بالشعر",
+    img: beautyCareImg7,
+    href: "#",
+  },
+  {
+    name: "العناية العضوية والطبيعية",
+    img: beautyCareImg8,
+    href: "#",
+  },
+  {
+    name: "ماركات تجميل فاخرة",
+    img: beautyCareImg9,
+    href: "#",
+  },
+  {
+    name: "المكملات الغذائية",
+    img: beautyCareImg10,
+    href: "#",
+  },
+  {
+    name: "المكياج",
+    img: beautyCareImg1,
+    href: "#",
+  },
+  {
+    name: "العناية بالفم",
+    img: beautyCareImg2,
+    href: "#",
+  },
+  {
+    name: "العناية بالوجه",
+    img: beautyCareImg3,
+    href: "#",
+  },
+  {
+    name: "العناية باليد والقدم",
+    img: beautyCareImg4,
+    href: "#",
+  },
+  {
+    name: "العناية بالرجل",
+    img: beautyCareImg5,
+    href: "#",
+  },
+  {
+    name: "العناية بالجسم",
+    img: beautyCareImg6,
+    href: "#",
+  },
+  {
+    name: "العناية بالشعر",
+    img: beautyCareImg7,
+    href: "#",
+  },
+  {
+    name: "العناية العضوية والطبيعية",
+    img: beautyCareImg8,
+    href: "#",
+  },
+  {
+    name: "ماركات تجميل فاخرة",
+    img: beautyCareImg9,
+    href: "#",
+  },
+  {
+    name: "المكملات الغذائية",
+    img: beautyCareImg10,
+    href: "#",
+  },
+];
+
+import beautyOffercareImg1 from "../../../public/imgs/beauty&care/beautyOffers/img1.png";
+import beautyOffercareImg2 from "../../../public/imgs/beauty&care/beautyOffers/img2.png";
+import beautyOffercareImg3 from "../../../public/imgs/beauty&care/beautyOffers/img3.png";
+import beautyOffercareImg4 from "../../../public/imgs/beauty&care/beautyOffers/img4.png";
+import beautyOffercareImg5 from "../../../public/imgs/beauty&care/beautyOffers/img5.png";
+import beautyOffercareImg6 from "../../../public/imgs/beauty&care/beautyOffers/img6.png";
+
+import beautyOffercareBrandImg1 from "../../../public/imgs/beauty&care/beautyOffers/logo1.png";
+import beautyOffercareBrandImg2 from "../../../public/imgs/beauty&care/beautyOffers/logo2.png";
+import beautyOffercareBrandImg3 from "../../../public/imgs/beauty&care/beautyOffers/logo3.png";
+import beautyOffercareBrandImg4 from "../../../public/imgs/beauty&care/beautyOffers/logo4.png";
+import beautyOffercareBrandImg5 from "../../../public/imgs/beauty&care/beautyOffers/logo5.png";
+import beautyOffercareBrandImg6 from "../../../public/imgs/beauty&care/beautyOffers/logo6.png";
+
+const beautyOfferCare1 = {
+  img: beautyOffercareImg1,
+  brandImg: beautyOffercareBrandImg1,
+  title: "أكتر من ٤٠٪",
+};
+const beautyOfferCare2 = {
+  img: beautyOffercareImg2,
+  brandImg: beautyOffercareBrandImg2,
+  title: "أكتر من ٤٠٪",
+};
+const beautyOfferCare3 = {
+  img: beautyOffercareImg3,
+  brandImg: beautyOffercareBrandImg3,
+  title: "أكتر من ٤٠٪",
+};
+const beautyOfferCare4 = {
+  img: beautyOffercareImg4,
+  brandImg: beautyOffercareBrandImg4,
+  title: "أكتر من ٤٠٪",
+};
+const beautyOfferCare5 = {
+  img: beautyOffercareImg5,
+  brandImg: beautyOffercareBrandImg5,
+  title: "أكتر من ٤٠٪",
+};
+const beautyOfferCare6 = {
+  img: beautyOffercareImg6,
+  brandImg: beautyOffercareBrandImg6,
+  title: "أكتر من ٤٠٪",
+};
+
+export const beautyOffersCare = [
+  beautyOfferCare1,
+  beautyOfferCare2,
+  beautyOfferCare3,
+  beautyOfferCare4,
+  beautyOfferCare5,
+  beautyOfferCare6,
+];
+
+import hairCutImg1 from "../../../public/imgs/beauty&care/haircut/img1.png";
+import hairCutImg2 from "../../../public/imgs/beauty&care/haircut/img2.png";
+import hairCutImg3 from "../../../public/imgs/beauty&care/haircut/img3.png";
+import hairCutImg4 from "../../../public/imgs/beauty&care/haircut/img4.png";
+
+export const hairCut = [
+  {
+    img: hairCutImg1,
+  },
+  {
+    img: hairCutImg2,
+  },
+  {
+    img: hairCutImg3,
+  },
+  {
+    img: hairCutImg4,
+  },
+];
+
+import beautyCircleImg1 from "../../../public/imgs/beauty&care/shopasprice/img1.png";
+import beautyCircleImg2 from "../../../public/imgs/beauty&care/shopasprice/img2.png";
+import beautyCircleImg3 from "../../../public/imgs/beauty&care/shopasprice/img3.png";
+import beautyCircleImg4 from "../../../public/imgs/beauty&care/shopasprice/img4.png";
+
+export const beautyCircles = [
+  {
+    img: beautyCircleImg1,
+    lessThan: "٩٩",
+  },
+  {
+    img: beautyCircleImg2,
+    lessThan: "١٩٩",
+  },
+  {
+    img: beautyCircleImg3,
+    lessThan: "٢٩٩",
+  },
+  {
+    img: beautyCircleImg4,
+    lessThan: "٣٩٩",
+  },
+];
+
+export const makeUp = [
+  {
+    name: "العيون",
+    img: "/imgs/beauty&care/makeup2/img1.png",
+  },
+  {
+    name: "الوجه",
+    img: "/imgs/beauty&care/makeup2/img2.png",
+  },
+  {
+    name: "الشفاه",
+    img: "/imgs/beauty&care/makeup2/img3.png",
+  },
+  {
+    name: "الجسم",
+    img: "/imgs/beauty&care/makeup2/img4.png",
+  },
+  {
+    name: "ألواح المكياج",
+    img: "/imgs/beauty&care/makeup2/img5.png",
+  },
+  {
+    name: "مزيل المكياج",
+    img: "/imgs/beauty&care/makeup2/img6.png",
+  },
+  {
+    name: "أطقم المكياج",
+    img: "/imgs/beauty&care/makeup2/img7.png",
+  },
+];
+
+import careProductImg1 from "../../../public/imgs/beauty&care/cartProducts/img1.png";
+import careProductImg2 from "../../../public/imgs/beauty&care/cartProducts/img2.png";
+import careProductImg3 from "../../../public/imgs/beauty&care/cartProducts/img3.png";
+import careProductImg4 from "../../../public/imgs/beauty&care/cartProducts/img4.png";
+import careProductImg5 from "../../../public/imgs/beauty&care/cartProducts/img5.png";
+
+export const careProducts = [
+  {
+    img: careProductImg1,
+    title: "مزيلات العرق",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+  {
+    img: careProductImg2,
+    title: "كريمات اليدين و البشرة",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+  {
+    img: careProductImg3,
+    title: "معجون الأسنان",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+  {
+    img: careProductImg4,
+    title: "مزيل الشعر",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+  {
+    img: careProductImg5,
+    title: "العناية العضوية والطبيعية",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+  {
+    img: careProductImg1,
+    title: "مزيلات العرق",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+  {
+    img: careProductImg2,
+    title: "كريمات اليدين و البشرة",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+  {
+    img: careProductImg3,
+    title: "معجون الأسنان",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+  {
+    img: careProductImg4,
+    title: "مزيل الشعر",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+  {
+    img: careProductImg5,
+    title: "العناية العضوية والطبيعية",
+    text: "أفخم الماركات العالمية لكافة المناسبات ",
+  },
+];
+
+import careandbeautyImg1 from "../../../public/imgs/beauty&care/Careandbeauty/img1.png";
+import careandbeautyImg2 from "../../../public/imgs/beauty&care/Careandbeauty/img2.png";
+import careandbeautyImg3 from "../../../public/imgs/beauty&care/Careandbeauty/img3.png";
+
+export const careandbeauty = [
+  {
+    img: careandbeautyImg1,
+    text: "أدوات حلاقة كهربائية",
+  },
+  {
+    img: careandbeautyImg2,
+    text: "شفرات حلاقة نسائية",
+  },
+  {
+    img: careandbeautyImg3,
+    text: "مجففات الشعر",
+  },
+  {
+    img: careandbeautyImg1,
+    text: "أدوات حلاقة كهربائية",
+  },
+  {
+    img: careandbeautyImg2,
+    text: "شفرات حلاقة نسائية",
+  },
+  {
+    img: careandbeautyImg3,
+    text: "مجففات الشعر",
+  },
+];
+
+import beautyProductImg1 from "../../../public/imgs/beauty&care/BeautyProductMakeup/img1.png";
+import beautyProductImg2 from "../../../public/imgs/beauty&care/BeautyProductMakeup/img2.png";
+import beautyProductImg3 from "../../../public/imgs/beauty&care/BeautyProductMakeup/img3.png";
+import beautyProductImg4 from "../../../public/imgs/beauty&care/BeautyProductMakeup/img4.png";
+import beautyProductLogo1 from "../../../public/imgs/beauty&care/BeautyProductMakeup/logo1.png";
+import beautyProductLogo2 from "../../../public/imgs/beauty&care/BeautyProductMakeup/logo2.png";
+import beautyProductLogo3 from "../../../public/imgs/beauty&care/BeautyProductMakeup/logo3.png";
+import beautyProductLogo4 from "../../../public/imgs/beauty&care/BeautyProductMakeup/logo4.png";
+
+export const BeautyProducts = [
+  {
+    img: beautyProductImg1,
+    logo: beautyProductLogo1,
+    bg: "#F3F3F3",
+  },
+  {
+    img: beautyProductImg2,
+    logo: beautyProductLogo2,
+    bg: "#E7EFF6",
+  },
+  {
+    img: beautyProductImg3,
+    logo: beautyProductLogo3,
+    bg: "#E9F4F3",
+  },
+  {
+    img: beautyProductImg4,
+    logo: beautyProductLogo4,
+    bg: "#F9F4EB",
   },
 ];

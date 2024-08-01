@@ -4,7 +4,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import { useEffect, useState } from "react";
 
-const FoodDoubleGallary = ({ products }) => {
+const FoodDoubleGallary = ({
+  products,
+  imgClassName = "",
+  paddingTop = "6",
+  MobilepaddingTop = "3",
+  hideButtons = true,
+  flatButtons = false,
+  smallButtons = false,
+}) => {
   const [slidesPerView, setSlidesPerView] = useState(1);
 
   useEffect(() => {
@@ -62,20 +70,30 @@ const FoodDoubleGallary = ({ products }) => {
       //   // disableOnInteraction: true,
       //   // pauseOnMouseEnter: true
       // }}
-      className="mySwiper-all douple-products-swiper hideButtons !mt-0 !h-full !pt-3 max-md:!mr-[5px] lg:!pt-6"
+      className={`mySwiper-all douple-products-swiper ${smallButtons ? "products-swiper" : ""} ${flatButtons ? "womenWears" : ""} ${hideButtons ? "hideButtons" : ""} !mt-0 !h-full max-md:!mr-[5px]`}
+      style={{
+        paddingTop: `${MobilepaddingTop}rem`,
+        [`@media (min-width: 768px)`]: {
+          paddingTop: `${paddingTop}rem`,
+        },
+      }}
     >
       {doubleProducts.map((product, i) => (
         <SwiperSlide key={i + "product"} className="!w-fit md:my-1.5">
-          <div className="flex flex-col items-center justify-center !gap-[30px] max-md:!gap-5">
+          <div
+            className={`flex flex-col items-center justify-center !gap-[40px] py-4 max-md:!gap-5`}
+          >
             <FoodGallaryCard
               img={product.first.img}
               title={product.first.name}
               key={product.first.name + i}
+              imgClassName={imgClassName}
             />
             <FoodGallaryCard
               img={product.second.img}
               title={product.second.name}
               key={i + product.second.name}
+              imgClassName={imgClassName}
             />
           </div>
         </SwiperSlide>

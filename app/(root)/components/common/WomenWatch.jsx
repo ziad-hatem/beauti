@@ -2,15 +2,24 @@ import Image from "next/image";
 import React from "react";
 
 const WomenWatch = ({
-  fourImages=[
-    {image: "/imgs/banners/wideWomenwatchesImage.svg", title: "الساعات الذكية"},
-    {image: "/imgs/banners/wideWomenwatchesImage2.svg", title: "الأعلى تقييماً"},
-    {image: "/imgs/banners/wideWomenwatchesImage3.svg", title: "اخترناها لك"},
-    {image: "/imgs/banners/wideWomenwatchesImage4.svg", title: "خصم يبدأ من ٢٠٪"}
+  fourImages = [
+    {
+      image: "/imgs/banners/wideWomenwatchesImage.svg",
+      title: "الساعات الذكية",
+    },
+    {
+      image: "/imgs/banners/wideWomenwatchesImage2.svg",
+      title: "الأعلى تقييماً",
+    },
+    { image: "/imgs/banners/wideWomenwatchesImage3.svg", title: "اخترناها لك" },
+    {
+      image: "/imgs/banners/wideWomenwatchesImage4.svg",
+      title: "خصم يبدأ من ٢٠٪",
+    },
   ],
-  BigImages=[
-    {image: "/imgs/banners/watchesImage.svg", title: "أحدث المنتجات"},
-    {image: "/imgs/banners/watchesImage2.svg", title: "عروض أطقم الساعات"},
+  BigImages = [
+    { image: "/imgs/banners/watchesImage.svg", title: "أحدث المنتجات" },
+    { image: "/imgs/banners/watchesImage2.svg", title: "عروض أطقم الساعات" },
   ],
   bgcolor = "#FAFAFA",
 }) => {
@@ -31,6 +40,8 @@ const WomenWatch = ({
             src={BigImages[0].image}
             width={100}
             height={100}
+            unoptimized
+            loading="lazy"
             className="h-full w-full object-cover lg:h-full xl:w-full"
           />
         </div>
@@ -48,6 +59,8 @@ const WomenWatch = ({
             src={BigImages[1].image}
             width={100}
             height={100}
+            unoptimized
+            loading="lazy"
             className="h-full w-full object-cover lg:h-full xl:w-full"
           />
         </div>
@@ -64,6 +77,8 @@ const WomenWatch = ({
                 src={fourImages[index].image}
                 width={100}
                 height={100}
+                unoptimized
+                loading="lazy"
                 className="h-[105px] w-full object-cover"
               />
               <h2

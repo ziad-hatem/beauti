@@ -4,9 +4,9 @@ import Rating from "./Rating";
 // import one from "../../../../public/icons/a1.png";
 import two from "../../../../public/icons/a2.png";
 
-const FoodGallaryCard = ({ img, title }) => {
+const FoodGallaryCard = ({ img, title, imgClassName = "" }) => {
   return (
-    <div className="group flex h-full !w-fit flex-col-reverse gap-2 !bg-transparent md:gap-3 ">
+    <div className="group flex h-full !w-fit flex-col-reverse gap-2 !bg-transparent md:gap-3">
       {/* first row tag an percent */}
       <div className="name text-center">
         <h3 className="text-center text-[8px] !font-[500] md:text-[14px]">
@@ -16,13 +16,13 @@ const FoodGallaryCard = ({ img, title }) => {
 
       {/* image */}
       {/* {console.log(img)} */}
-      <div className=" relative flex items-center justify-center !overflow-visible rounded-xl !bg-[#F5F5F5] max-lg:!h-[85px] max-lg:w-[85px] lg:h-[170px] lg:!w-[170px]">
+      <div className=" relative flex items-center justify-center !overflow-visible rounded-xl !bg-[#F5F5F5] max-md:!h-[85px] max-md:w-[85px] md:h-[170px] md:!w-[170px]">
         <Image
           src={img}
           loading="lazy"
           unoptimized
           alt=""
-          className="relative top-[-10%] !h-auto !w-[80%] mix-blend-multiply transition-all duration-500 lg:!w-[90%]"
+          className={`relative top-[-10%] !h-auto !w-[80%] !mix-blend-multiply transition-all duration-500 md:!w-[90%] ${imgClassName}`}
         />
       </div>
 

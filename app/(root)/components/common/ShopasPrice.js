@@ -45,7 +45,7 @@ const ShopasPrice = ({
             unoptimized
             loading="lazy"
             height={100}
-            className={`relative h-[141px] w-[125px] object-contain mix-blend-multiply ${position}`}
+            className={`relative h-[141px] w-[125px] object-contain !mix-blend-multiply ${position}`}
           />
         </div>
         <div
@@ -63,8 +63,9 @@ const ShopasPrice = ({
                 alt={e.lessThan}
                 width={100}
                 loading="lazy"
+                unoptimized
                 height={100}
-                className="h-full w-full"
+                className="relative z-10 h-full w-full"
               />
             </Link>
           ))}

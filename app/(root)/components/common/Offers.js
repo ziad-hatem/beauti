@@ -72,7 +72,7 @@ export default function Offers({
               centeredSlides: false,
             },
           }}
-          className="mySwiper-all products"
+          className={`mySwiper-all products hideButtons`}
         >
           <div className="products">
             {offersOne.map((offer, i) => {

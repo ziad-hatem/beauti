@@ -28,16 +28,16 @@ const BigProductCard = ({ product, multiSubSection, className }) => {
 
       {/* title */}
 
-      <div className="max-xl:flex-start flex flex-col max-xl:justify-center max-lg:mr-2 md:!items-center">
+      <div className="max-md:flex-start flex flex-col max-xl:justify-center md:!items-start lg:!items-center">
         <h3 className="mt-2 w-[208px] overflow-hidden text-ellipsis whitespace-nowrap text-[calc(10px_+_0.6vw)] font-[700] text-black md:w-[208px] md:text-center md:text-[17px]">
           {product.title}
         </h3>
         <h3 className="w-full text-[calc(8px_+_0.6vw)] text-[#363636] md:text-[15px]">
           <p className="hidden w-[30%] max-w-full overflow-hidden text-ellipsis whitespace-nowrap max-lg:block md:w-[269px]">
-            {string}
+            {string.substring(10, 150)}...
           </p>
           <p className="hidden w-[208px] max-w-full overflow-hidden text-ellipsis whitespace-nowrap md:w-[269px] lg:block">
-            {string}
+            {string.substring(10, 60)}...
           </p>
           {/* <p className="max-w-full">حقيبة الكمبيوتر المحم...</p> */}
         </h3>

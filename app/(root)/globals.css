@@ -4544,3 +4544,7 @@ section.PinkBigBrandSection .swiper-button-prev {
   margin: 0 0 15px 0;
   height: 9.92px !important;
 }
+
+.beautyCare .sectionName:hover {
+  background: #383838;
+}

@@ -1,30 +1,41 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Scrollbar } from "swiper/modules";
 import "swiper/css/scrollbar";
 import Link from "next/link";
 
-const Product = ({ product }) => (
-  <Link href="/" className="block">
-    <div
-      className="pb-full relative flex w-full items-center justify-center overflow-hidden rounded-2xl max-sm:min-h-[calc(100vw_-_10px)] max-sm:w-[calc(100vw_-_10px)] sm:h-[227px] sm:w-[227px]"
-      style={{ background: "linear-gradient(180deg, #FFF 0%, #F5F5F5 100%)" }}
+const Product = ({ product }) => {
+  const [hover, setHover] = useState(false);
+  return (
+    <Link
+      href="/"
+      className="block"
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
     >
-      <Image
-        src={product.img}
-        objectFit="contain"
-        unoptimized
-        className="!h-auto !w-[55%] mix-blend-multiply md:!w-[70%]"
-        loading="lazy"
-        alt={product.name}
-      />
-    </div>
-    <h1 className="mt-3 text-center text-lg font-normal">{product.name}</h1>
-  </Link>
-);
-
+      <div
+        className="pb-full relative flex w-full items-center justify-center overflow-hidden rounded-2xl max-sm:min-h-[calc(100vw_-_10px)] max-sm:w-[calc(100vw_-_10px)] sm:h-[227px] sm:w-[227px]"
+        style={{
+          background: hover
+            ? "linear-gradient(180deg, #FFF 0%, #E3E3E3 100%)"
+            : "linear-gradient(180deg, #FFF 0%, #F5F5F5 100%)",
+        }}
+      >
+        <Image
+          src={product.img}
+          objectFit="contain"
+          unoptimized
+          className="!h-auto !w-[55%] mix-blend-multiply md:!w-[70%]"
+          loading="lazy"
+          alt={product.name}
+        />
+      </div>
+      <h1 className="mt-3 text-center text-lg font-normal">{product.name}</h1>
+    </Link>
+  );
+};
 const SuperMarket = ({ data }) => {
   return (
     <div className="flex flex-wrap gap-[21px]">

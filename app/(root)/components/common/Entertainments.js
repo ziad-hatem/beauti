@@ -54,7 +54,7 @@ const Entertainments = ({ data }) => {
             centeredSlides: false,
           },
         }}
-        className="mySwiper-all products hideButtons customScrollBar !mt-0 max-md:!pb-[20px]"
+        className="mySwiper-all products customScrollBar LittlePagination !mt-0 max-md:!pb-[20px]"
       >
         {data.map((e, i) => {
           if (i % 2 !== 0) return null;

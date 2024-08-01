@@ -76,8 +76,15 @@ export default function Foodsupplements() {
             mobileBanners={MobilekidsBanner}
             swiperClass={"top-banner"}
           />
-          <section className="my-8 md:my-10">
-            <FoodDoubleGallary products={foodFashion} />
+          <section className="mb-4 mt-8 md:mb-4 md:mt-10">
+            <FoodDoubleGallary
+              hideButtons={false}
+              smallButtons={true}
+              flatButtons={true}
+              products={foodFashion}
+              paddingTop={"2"}
+              MobilepaddingTop="0"
+            />
           </section>
           <BannerSlider
             desktopBanners={ManSlimBanner}
@@ -179,14 +186,14 @@ export default function Foodsupplements() {
                 buttonHovbg="hover:bg-[#383838]"
                 products={dailyOffers}
               />
-              <div className="section-title !mb-[5px] !mt-[13px] flex !items-center bg-[#C33849] !px-[13px] !py-[10px] md:!mb-[10px] md:!mt-[16px] md:!py-[14px]">
+              <div className="section-title !mb-[5px] !mt-[13px] flex !items-center bg-[#C33849] !px-[13px] !py-[7.5px] md:!mb-[10px] md:!mt-[16px] md:!py-[14px]">
                 <h2 className="lg:text-[18px]#383838 hidden text-[18px] font-[700] text-white lg:block">
                   عروض بيوتي على السوبرماركت
                 </h2>
                 <h2 className="block text-[13px] font-[700] text-white lg:hidden lg:text-[18px]">
                   عروض السوبرماركت
                 </h2>
-                <div className="displayAll !bg-white !text-black">
+                <div className="displayAll !mt-0 !bg-white !text-black">
                   <a href="/">عرض الكل</a>
                 </div>
               </div>
