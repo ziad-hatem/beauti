@@ -1,50 +1,44 @@
 "use client";
 import BannerSlider from "@/components/banners/BannerSlider";
+import BabyWears from "@/components/common/BabyWears";
 import BeautyOffersgirls from "@/components/common/BeautyOffersgirls";
+import BlueBigBrand from "@/components/common/BlueBigBrand";
+import BoysJewellery from "@/components/common/BoysJewellery";
 import CardNoButtonSlider from "@/components/common/CardNoButtonSlider";
 import CardsSlider from "@/components/common/CardsSlider";
-import DoubleGallary from "@/components/common/DoubleGallary";
-import Offers from "@/components/common/Offers";
-import BlueBigBrand from "@/components/common/BlueBigBrand";
-import ShopasPrice from "@/components/common/ShopasPrice";
-import Sport from "@/components/common/Sport";
-import ManSingelBanner from "@/components/common/ManSingelBanner";
-import WomenSuitcase from "@/components/common/WomenSuitcase";
-import SmallBrandSlider2 from "@/components/common/SmallBrandSlider2";
-import Recommended from "@/components/common/Recommended";
-import GlassesMostSelled from "@/components/common/GlassesMostSelled";
-import ShopasPrice2 from "@/components/common/ShopasPrice2";
-import SectionTitle from "@/components/common/SectionTitle";
-import ShopasPrice3 from "@/components/common/ShopasPrice3";
-import KidsSlider from "@/components/common/KidsSlider";
-import boysJewellery from "@/components/common/BoysJewellery";
-import ShopasBrand from "@/components/common/ShopasBrand";
-import ShopasPriceGirl from "@/components/common/ShopasPriceGirl";
-import RecommendationSection from "@/components/common/RecommendationSection";
-import SimpleCardNoButtonSlider from "@/components/common/SimpleCardNoButtonSlider";
-import Widebanner from "@/components/common/Widebanner";
-import BabyWears from "@/components/common/BabyWears";
 import CardsSlider2 from "@/components/common/CardsSlider2";
-import WomenSidebarSection2 from "@/components/common/WomenSidebarSection2";
+import DoubleGallary from "@/components/common/DoubleGallary";
+import GlassesMostSelled from "@/components/common/GlassesMostSelled";
+import KidsSlider from "@/components/common/KidsSlider";
+import ManSingelBanner from "@/components/common/ManSingelBanner";
+import Offers from "@/components/common/Offers";
+import RecommendationSection from "@/components/common/RecommendationSection";
+import Recommended from "@/components/common/Recommended";
+import SectionTitle from "@/components/common/SectionTitle";
+import ShopasBrand from "@/components/common/ShopasBrand";
+import ShopasPrice from "@/components/common/ShopasPrice";
+import ShopasPrice2 from "@/components/common/ShopasPrice2";
+import ShopasPriceGirl from "@/components/common/ShopasPriceGirl";
+import SmallBrandSlider2 from "@/components/common/SmallBrandSlider2";
+import Sport from "@/components/common/Sport";
+import Widebanner from "@/components/common/Widebanner";
 import WomenSidebarSection from "@/components/common/WomenSidebarSection";
+import WomenSidebarSection2 from "@/components/common/WomenSidebarSection2";
+import WomenSuitcase from "@/components/common/WomenSuitcase";
 import MainSideFilter from "@/components/common/filter/MainSideFilter";
 import {
   ManSlimBanner,
+  boysbannerObject,
+  fbrands,
   filterColors,
   filterOffers,
   filterbrands,
-  mancheapClothes,
-  recommendedProducts,
-  slimBanners,
-  fbrands,
-  section,
-  manbannerObject,
   manlinks,
-  boysbannerObject,
+  recommendedProducts,
+  section,
+  slimBanners,
 } from "@/data/fake";
 import {
-  BeautyOffers,
-  beautyOffersGirl,
   beautyOffersboys,
   boysBanner,
   boysBeautyOffers,
@@ -55,29 +49,17 @@ import {
   boysleftlinks,
   boysrightlinks,
   boyswears,
-  cheapClothes,
-  circles,
   dailyOffers,
-  dailyOffersKids,
   dailyOffersboys,
-  dailyeconomyKids,
-  kidsBanner,
-  kidsFashion,
-  leftlinks,
-  leftlinks2,
   mobileboysBanner,
   msport,
-  rightlinks,
-  rightlinks2,
 } from "@/data/fashionData";
 import {
   fashionMaterials,
   fashionSubSections,
 } from "@/data/fashionSectionData";
-import Link from "next/link";
 import Image from "next/image";
-import { wsport } from "../../data/fashionData";
-import BoysJewellery from "@/components/common/BoysJewellery";
+import Link from "next/link";
 const data = [
   {
     img: "/imgs/boysFashion/Desirablecategories/img1.svg",
@@ -438,9 +420,7 @@ export default function boysFashionPage() {
                     <p className="-mt-0.5 text-center text-[9px] font-[400] text-[#383838] max-md:text-[13px] md:text-start xl:text-[14px]">
                       {e.description}
                     </p>
-                    <p
-                      className="mt-2 !h-[22px] text-center text-[12px] text-[#383838] group-hover:text-[13px] group-hover:font-[700] max-md:mb-[29px] md:text-start xl:text-[14px]"
-                    >
+                    <p className="mt-2 !h-[22px] text-center text-[12px] text-[#383838] group-hover:text-[13px] group-hover:font-[700] max-md:mb-[29px] md:text-start xl:text-[14px]">
                       تسوق الآن »
                     </p>
                   </Link>

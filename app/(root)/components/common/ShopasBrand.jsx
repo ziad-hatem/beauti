@@ -64,7 +64,7 @@ const ShopasBrand = ({
         {brands?.map((e, i) => {
           if (i % 2 !== 0) return null;
           return (
-            <div className="flex w-full flex-col gap-3">
+            <div className="flex w-full flex-col gap-3" key={i}>
               <Brand {...e} key={i} />
               {brands[i + 1] && <Brand {...brands[i + 1]} key={i + 1} />}
             </div>

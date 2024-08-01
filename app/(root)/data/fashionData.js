@@ -4090,12 +4090,7 @@ import babywearsImg3 from "../../../public/imgs/kidsFashion/babywears/img3.svg";
 import babywearsImg4 from "../../../public/imgs/kidsFashion/babywears/img4.svg";
 import babywearsImg5 from "../../../public/imgs/kidsFashion/babywears/img5.svg";
 
-import boysWearsImg1 from "../../../public/imgs/boysFashion/babywears/img1.svg";
-import boysWearsImg2 from "../../../public/imgs/boysFashion/babywears/img2.svg";
-import boysWearsImg3 from "../../../public/imgs/boysFashion/babywears/img3.svg";
-import boysWearsImg4 from "../../../public/imgs/boysFashion/babywears/img4.svg";
-import boysWearsImg5 from "../../../public/imgs/boysFashion/babywears/img5.svg";
-// export const boyswears = [...mobileboysBanner];
+export const boyswears = [...mobileboysBanner];
 export const babywears = [
   {
     img: babywearsImg1,
