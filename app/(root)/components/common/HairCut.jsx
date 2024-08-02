@@ -3,16 +3,18 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 const HairCut = ({ data }) => {
+  const [hoverIndex, setHoverIndex] = useState(null);
+
   return (
     <div className="flex h-fit items-center gap-[11.67px] max-md:flex-col">
       {data.map((e, i) => {
-        const [hover, setHover] = useState(false);
+        const isHovered = hoverIndex === i;
         return (
           <div
             key={i}
             className="group aspect-square h-auto w-[calc(100vw_-_26px)] max-w-[400px] cursor-pointer overflow-hidden md:max-h-[234px] md:max-w-[234px]"
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
+            onMouseEnter={() => setHoverIndex(i)}
+            onMouseLeave={() => setHoverIndex(null)}
           >
             <div className="relative">
               <Image
@@ -21,14 +23,14 @@ const HairCut = ({ data }) => {
                 loading="lazy"
                 className="h-auto"
                 style={{
-                  transform: hover ? "scale(1.05)" : "scale(1)",
+                  transform: isHovered ? "scale(1.05)" : "scale(1)",
                   transition: "transform 0.1s ease-in-out",
                 }}
               />
               <div
                 className="absolute left-0 top-0 z-[1] h-full w-full"
                 style={{
-                  backgroundColor: hover ? "#000" : "transparent",
+                  backgroundColor: isHovered ? "#000" : "transparent",
                   opacity: "10%",
                 }}
               />
