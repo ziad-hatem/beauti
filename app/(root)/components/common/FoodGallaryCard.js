@@ -9,7 +9,7 @@ const FoodGallaryCard = ({ img, title, imgClassName = "" }) => {
     <div className="group flex h-full !w-fit flex-col-reverse gap-2 !bg-transparent md:gap-3">
       {/* first row tag an percent */}
       <div className="name text-center">
-        <h3 className="text-center text-[8px] !font-[500] md:text-[14px]">
+        <h3 className="text-center text-[8px] !font-[500] group-hover:text-[#F39406] md:text-[14px]">
           {title}
         </h3>
       </div>

@@ -13,10 +13,10 @@ const Product = ({ product }) => {
           width={100}
           height={100}
           loading="lazy"
-          className="h-auto w-[80%] object-contain"
+          className="h-auto w-[80%] object-contain transition-all group-hover:scale-110"
         />
       </div>
-      <div className="flex h-[37px] w-full items-center justify-center  bg-[#EFEBE0]">
+      <div className="flex h-[37px] w-full items-center justify-center bg-[#EFEBE0]">
         <h1 className="text-[17px] font-[500] text-[#383838] group-hover:font-[700]">
           {product.text}
         </h1>
@@ -40,7 +40,7 @@ const Right = ({ mainImg }) => {
       </div>
       <Link
         href={""}
-        className="hidden min-h-[20px] cursor-pointer text-[22px] font-[400] hover:text-[21px] hover:font-[700] md:block"
+        className="hidden h-[20px] cursor-pointer text-[22px] font-[400] hover:text-[21px] hover:font-[700] md:block"
       >
         عرض الكل »
       </Link>

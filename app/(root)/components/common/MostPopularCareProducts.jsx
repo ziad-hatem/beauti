@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import productBg from "../../../../public/imgs/beauty&care/cartProducts/bg.png";
 const Product = ({ product }) => {
   return (
-    <div className="cursor-pointer">
+    <div className="group cursor-pointer">
       <div className="relative h-[224px] w-[176px] overflow-hidden rounded-[25px]">
         <div>
           <Image
@@ -32,7 +32,7 @@ const Product = ({ product }) => {
       <p className="mt-1 text-[9px] font-[400]">{product.text}</p>
       <p
         href={"/"}
-        className="mt-2 text-[9px] group-hover:text-[13px] group-hover:font-[700]"
+        className="mt-2 h-[15px] text-[9px] group-hover:text-[8px] group-hover:font-[700]"
       >
         تسوق الآن <span>»</span>
       </p>

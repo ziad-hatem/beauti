@@ -7,7 +7,7 @@ import Link from "next/link";
 const Product = ({ product }) => (
   <Link
     href={"/"}
-    className="flex w-[153px] flex-col items-center max-lg:w-[109px] lg:h-[188px]"
+    className="group flex w-[153px] flex-col items-center max-lg:w-[109px] lg:h-[188px]"
   >
     <div className="image flex h-[153px] w-[153px] items-start justify-center rounded-full bg-[#F0F0F0] p-3 max-lg:h-[109px] max-lg:w-[109px]">
       <Image
@@ -19,7 +19,7 @@ const Product = ({ product }) => (
         loading="lazy"
       />
     </div>
-    <h1 className="mx-auto mt-3 w-fit text-center text-[14px] font-medium lg:text-[17px]">
+    <h1 className="mx-auto mt-3 w-fit text-center text-[14px] font-medium group-hover:text-[#F39406] lg:text-[17px]">
       {product.name}
     </h1>
   </Link>

@@ -7,9 +7,10 @@ import "swiper/css/scrollbar";
 import Link from "next/link";
 
 const Product = ({ product }) => (
-  <Link href={"/"} className="block">
+  <Link href={"/"} className="group block">
     <div className="!h-auto !w-[calc(100vw_-_10px)] max-w-[300px] rounded-[20px] border-[1px] !border-solid !border-[#CACACA] md:!w-[234px]">
-      <div className="image flex !h-auto !w-full items-center justify-center rounded-[32px]">
+      <div className="image relative flex !h-auto !w-full items-center justify-center rounded-[32px]">
+        <div className="absolute left-0 top-0 h-full w-full group-hover:bg-black group-hover:opacity-25" />
         <Image
           src={product.img}
           width={100}
@@ -19,7 +20,7 @@ const Product = ({ product }) => (
           loading="lazy"
         />
       </div>
-      <h1 className="mb-[28px] mt-[30px] text-center text-[14px] font-[400] md:text-[20px]">
+      <h1 className="mb-[28px] mt-[30px] h-[30px] text-center text-[14px] font-[400] md:text-[20px] md:group-hover:text-[19px] md:group-hover:font-[500]">
         {product.name}
       </h1>
     </div>

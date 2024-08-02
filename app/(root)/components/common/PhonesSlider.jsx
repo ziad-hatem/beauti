@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import defaultImg from "@/../../public/imgs/defaultImg.svg";
 const Product = ({ img = defaultImg, title }) => (
-  <Link href={"/"}>
+  <Link href={"/"} className="group">
     <div className="flex !h-[85px] !w-[85px] items-center justify-center rounded-[18px] bg-[#F9F9F9] md:!h-[170px] md:!w-[170px]">
       <Image
         src={img}
@@ -16,7 +16,7 @@ const Product = ({ img = defaultImg, title }) => (
         className="!h-auto !w-[90%] object-contain mix-blend-multiply"
       />
     </div>
-    <h1 className="mt-3 text-center text-[14px] font-medium max-md:mt-2 max-md:text-[8px]">
+    <h1 className="mt-3 text-center text-[14px] font-medium group-hover:text-[#F39406] max-md:mt-2 max-md:text-[8px]">
       {title}
     </h1>
   </Link>

@@ -36,6 +36,10 @@ const GirlProductCard = ({
       }}
     >
       <Image
+        style={{
+          transform: hover ? "scale(1.05)" : "scale(1)",
+          transition: "transform 0.2s ease-in-out",
+        }}
         src={product.img}
         width={100}
         unoptimized

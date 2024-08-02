@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 
 const Brand = ({ title, img, className }) => (
-  <div className="!w-[ flex flex-col gap-3">
+  <div className="!w-[ group flex flex-col gap-3">
     <div
-      className={`flex aspect-square !h-auto !w-[calc(50vw_-_17px)] max-w-[200px] items-center justify-center rounded-full bg-[#F5F5F5] md:max-h-[153px] md:max-w-[153px]`}
+      className={`flex aspect-square !h-auto !w-[calc(50vw_-_17px)] max-w-[200px] items-center justify-center rounded-full bg-[#F5F5F5] group-hover:bg-[#EAEAEA] md:max-h-[153px] md:max-w-[153px]`}
     >
       <Image
         src={img}

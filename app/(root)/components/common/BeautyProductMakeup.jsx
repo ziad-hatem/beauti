@@ -10,21 +10,22 @@ const Product = ({ product }) => {
       }}
     >
       <div className="">
+        <div className="absolute left-0 top-0 h-full w-full group-hover:bg-black group-hover:opacity-5" />
         <Image
           src={product.img}
           width={100}
           height={100}
           unoptimized
           loading="lazy"
-          className="!h-[180px] w-auto mix-blend-multiply md:!h-[244px]"
+          className="relative z-10 !h-[180px] w-auto mix-blend-multiply md:!h-[244px]"
         />
       </div>
-      <div className="absolute left-1/2 top-1/2 flex h-[72px] w-full -translate-x-1/2 -translate-y-1/2 transform items-center justify-center bg-white bg-opacity-70">
+      <div className="absolute left-1/2 top-1/2 z-10 flex h-[72px] w-full -translate-x-1/2 -translate-y-1/2 transform items-center justify-center bg-white bg-opacity-70">
         <Image
           src={product.logo}
           unoptimized
           loading="lazy"
-          className="h-auto w-[80%] object-contain transition-all group-hover:w-[95%]"
+          className="h-[46px] w-auto object-contain transition-all group-hover:h-[48px]"
         />
       </div>
     </div>

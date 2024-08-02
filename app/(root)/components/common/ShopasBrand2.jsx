@@ -5,19 +5,20 @@ import React from "react";
 const Product = ({ img, brand }) => (
   <Link
     href={"/"}
-    className="flex h-auto w-[calc(100vw_-_10px)] flex-col justify-center overflow-hidden rounded-[20px] bg-[#F5F5F5] md:w-[221px]"
+    className="group flex h-auto w-[calc(100vw_-_10px)] flex-col justify-center overflow-hidden rounded-[20px] bg-[#F5F5F5] md:w-[221px]"
   >
-    <div>
+    <div className="relative">
+      <div className="absolute left-0 top-0 h-full w-full group-hover:bg-black group-hover:opacity-20" />
       <Image
         src={img}
         width={100}
         height={100}
         unoptimized
         loading="lazy"
-        className="w-full"
+        className="w-full transition-all group-hover:scale-105"
       />
     </div>
-    <div className="mb-[10px] mt-[10px] flex h-full w-full items-center justify-center">
+    <div className="relative z-10 flex h-[47px] w-full items-center justify-center bg-[#F5F5F5]">
       <Image
         src={brand}
         width={100}

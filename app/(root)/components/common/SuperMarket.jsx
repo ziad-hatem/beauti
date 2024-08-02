@@ -27,7 +27,7 @@ const Product = ({ product }) => {
           src={product.img}
           objectFit="contain"
           unoptimized
-          className="!h-auto !w-[55%] mix-blend-multiply md:!w-[70%]"
+          className="!h-auto mix-blend-multiply"
           loading="lazy"
           alt={product.name}
         />

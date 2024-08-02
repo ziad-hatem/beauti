@@ -17,6 +17,7 @@ import KidsJewellery from "@/components/common/KidsJewellery";
 import BeautyProductMakeup from "@/components/common/BeautyProductMakeup";
 import Careandbeauty from "@/components/common/Careandbeauty";
 import VitaminsSection from "@/components/common/VitaminsSection";
+import HairCut from "@/components/common/HairCut";
 import EntertainmentsSingle from "@/components/common/EntertainmentsSingle";
 import Fitbudget from "@/components/common/Fitbudget";
 import MostPopularCareProducts from "@/components/common/MostPopularCareProducts";
@@ -394,30 +395,7 @@ export default function beautyandCare() {
           </section>
           <section>
             <SectionTitle name={"كل ما يحتاجه الشعر"} />
-            <div className="flex h-fit items-center gap-[11.67px] max-md:flex-col">
-              {hairCut.map((e, i) => {
-                return (
-                  <div
-                    key={i}
-                    className="group aspect-square h-auto w-[calc(100vw_-_26px)] max-w-[400px] cursor-pointer md:max-h-[234px] md:max-w-[234px]"
-                  >
-                    <div className="relative">
-                      <Image
-                        src={e.img}
-                        unoptimized
-                        loading="lazy"
-                        className="h-auto"
-                      />
-                      <div className="absolute bottom-[22px] left-1/2 flex h-[44px] w-[60%] -translate-x-1/2 transform items-center justify-center bg-[#FFF] bg-opacity-90 md:bottom-3 md:w-[80%]">
-                        <h2 className="text-[12px] font-[400] text-[#383838] group-hover:font-[500] lg:text-[16px]">
-                          {e.title}
-                        </h2>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+            <HairCut data={hairCut} />
           </section>
           <section className="round CardsSlider-p !mt-8 md:!mt-[25px]">
             <div className="section-title !m-0 max-md:flex max-md:h-[35px] max-md:items-center max-md:!bg-[#FAFAFA] md:!pb-[10px] md:!pt-[5px]">

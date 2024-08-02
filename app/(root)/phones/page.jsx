@@ -78,7 +78,6 @@ export default function PhonesPage() {
             swiperClass={"top-banner mb-[40px]"}
             mobileBanners={FashionHeroMobileBanners.reverse()}
           />
-
           <div className="mb-8 md:mb-10">
             <PhonesSlider products={phonesSliderdata} />
           </div>
@@ -217,14 +216,18 @@ export default function PhonesPage() {
             </div>
             <MobileAccessories data={Mobileaccessories} />
           </section>
-          <section className="ImgsOffersSlider offers Recommended !mb-0 !mt-8 md:!mt-10">
+          {/* Fix This Section Ya Kareem */}
+
+          {/* <section className="ImgsOffersSlider offers Recommended !mb-0 !mt-8 md:!mt-10">
             <div className="title mb-4 flex w-full justify-center md:mb-8">
               <h1 className="text-[15px] font-[400] md:text-[22px]">
                 مختارات قد تعجبك
               </h1>
             </div>
             <PhonesRecommended products={recommendedProducts} />
-          </section>
+          </section> */}
+
+          {/* Fix This Section Ya Kareem */}
           <section className="mt-8 md:mt-10">
             <div className="title mb-2 flex w-full justify-center md:mb-8">
               <h1 className="text-[15px] font-[400] md:text-[22px]">
