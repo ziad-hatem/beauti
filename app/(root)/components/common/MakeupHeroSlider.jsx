@@ -46,8 +46,8 @@ const MakeupHeroSlider = ({ data }) => {
         className={` products-swiper womenWears !mt-0 !h-full max-md:!mr-[5px]`}
       >
         {data.map((e, i) => (
-          <SwiperSlide className="!w-fit">
-            <Product {...e} key={i} />
+          <SwiperSlide className="!w-fit" key={i}>
+            <Product {...e} />
           </SwiperSlide>
         ))}
       </Swiper>
