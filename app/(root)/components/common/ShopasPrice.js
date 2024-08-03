@@ -39,14 +39,17 @@ const ShopasPrice = ({
           <h1 className={`${color} text-[15px] md:mr-6 xl:text-[20px]`}>
             تسوق حسب السعر
           </h1>
-          <Image
-            src={img}
-            width={100}
-            unoptimized
-            loading="lazy"
-            height={100}
-            className={`relative h-[141px] w-[125px] object-contain !mix-blend-multiply ${position}`}
-          />
+          <div>
+            {" "}
+            <Image
+              src={img}
+              width={100}
+              unoptimized
+              loading="lazy"
+              height={100}
+              className={`relative h-[141px] w-[125px] object-contain !mix-blend-multiply ${position}`}
+            />
+          </div>
         </div>
         <div
           className="mb-1 ml-[19px] flex flex-1 items-center gap-[15px] max-md:mx-[13px] lg:w-fit lg:flex-row xl:justify-center xl:gap-[34px]"

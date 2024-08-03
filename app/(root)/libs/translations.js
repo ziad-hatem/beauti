@@ -9,6 +9,7 @@ const translations = {
   phones: "الجوالات والأجهزة اللوحية واكسسوارتها",
   "cosmetics&care": "مستحضرات التجميل والعناية",
   "beauty&care": "التجميل و العناية",
+  makeup: "المكياج",
   // Add more translations as needed
 };
 

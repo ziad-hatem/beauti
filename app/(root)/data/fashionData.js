@@ -5843,3 +5843,42 @@ export const latestMakeupGifts = [
     name: "هدايا العناية بالشعر",
   },
 ];
+
+import makeupImg1 from "../../../public/imgs/makeup/img1.png";
+import makeupImg2 from "../../../public/imgs/makeup/img2.png";
+import makeupImg3 from "../../../public/imgs/makeup/img3.png";
+import makeupImg4 from "../../../public/imgs/makeup/img4.png";
+import makeupImg5 from "../../../public/imgs/makeup/img5.png";
+import makeupImg6 from "../../../public/imgs/makeup/img6.png";
+import makeupImg7 from "../../../public/imgs/makeup/img7.png";
+
+export const makeupHeroSlider = [
+  {
+    img: makeupImg1,
+    title: "العيون",
+  },
+  {
+    img: makeupImg2,
+    title: "الوجه",
+  },
+  {
+    img: makeupImg3,
+    title: "الشفاه",
+  },
+  {
+    img: makeupImg4,
+    title: "الجسم",
+  },
+  {
+    img: makeupImg5,
+    title: "ألواح المكياج",
+  },
+  {
+    img: makeupImg6,
+    title: "مزيل المكياج",
+  },
+  {
+    img: makeupImg7,
+    title: "أطقم المكياج",
+  },
+];

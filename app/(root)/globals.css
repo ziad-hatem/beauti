@@ -507,6 +507,10 @@ span.swiper-pagination-bullet {
   margin-top: 10px;
 }
 
+.main-side-filter {
+  overscroll-behavior-y: none;
+}
+
 .main-side-filter > div {
   background-color: white;
   width: 260px;
